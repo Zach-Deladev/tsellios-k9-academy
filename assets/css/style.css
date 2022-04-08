@@ -1,6 +1,9 @@
 /* Nav */
 
-
+#navbar-container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .nav-container {
     position: absolute;
@@ -10,6 +13,7 @@
     padding-left: 0;
     padding-right: 0;
 }
+
 
 /* Video Background Loop */
 html {
