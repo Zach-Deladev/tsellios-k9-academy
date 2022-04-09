@@ -11,7 +11,6 @@
     text-align: center;
     margin: 0;
     padding: 0;
-
 }
 
 #quote-container {
@@ -48,29 +47,26 @@
     margin: 0;
 }
 
-/* Video Background */
-html {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
+/* Video Background  */
 
 
 
 
-.video {
-    width: 100%;
+#vid-bg {
+
+    min-width: 100%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
 
+
 }
 
 
 
-/*  */
+/* Main content */
 .centered-text {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -80,4 +76,26 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 
+
 }
+
+
+
+
+
+
+
+/* Media Queires */
+
+
+
+/* @media (max-width: 1100px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+ @media (max-width: 838px) { 
+    h1 {
+        font-size: 0.7em;
+    }
+} */
