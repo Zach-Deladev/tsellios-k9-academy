@@ -1,3 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 15px;
+}
+
+/* Collum Styling */
+
+
+
+/* Colors */
+
+
+
 /* Containers */
 
 #navbar-container {
@@ -13,10 +29,22 @@
     padding: 0;
 }
 
+#main-container p {
+    font-size: 14px;
+}
+
 #quote-container {
     text-align: center;
     padding-top: 10px;
+    background-color: white;
 }
+
+#footer-container {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
 
 /* Nav */
 
@@ -50,7 +78,9 @@
 /* Video Background  */
 
 
-
+.video-container {
+    overflow: hidden;
+}
 
 #vid-bg {
 
@@ -81,7 +111,11 @@
 
 
 
+/* Footer */
 
+.footer-container {
+    background-color: black;
+}
 
 
 
