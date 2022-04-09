@@ -1,54 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
+
+
 }
 
 p {
     margin: 15px;
 }
 
-/* Collum Styling */
+/* Nav bar */
 
-
-
-/* Colors */
-
-
-
-/* Containers */
+/* Nav bar */
 
 #navbar-container {
     padding-left: 0;
     padding-right: 0;
-
 }
-
-#main-container {
-    position: relative;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-#main-container p {
-    font-size: 14px;
-}
-
-#quote-container {
-    text-align: center;
-    padding-top: 10px;
-    background-color: white;
-}
-
-#footer-container {
-    background-color: black;
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-/* Nav */
-
-
 
 .navbar {
     background-color: rgba(0, 0, 0, .7);
@@ -58,13 +25,11 @@ p {
     border: none;
 }
 
-
-
 .nav-container {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 30;
     padding-left: 0;
     padding-right: 0;
 }
@@ -75,8 +40,54 @@ p {
     margin: 0;
 }
 
-/* Video Background  */
 
+/* Main Content */
+
+#main-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#main-container video {
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+
+}
+
+#main-container .content {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 250px;
+}
+
+.content {
+    object-fit: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-text {
+
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+/* Video background */
 
 .video-container {
     overflow: hidden;
@@ -96,18 +107,31 @@ p {
 
 
 
-/* Main content */
-.centered-text {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 2em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
 
+/* Containers */
+
+#quote-container {
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
 }
+
+#footer-container {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,16 +144,3 @@ p {
 
 
 /* Media Queires */
-
-
-
-/* @media (max-width: 1100px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
- @media (max-width: 838px) { 
-    h1 {
-        font-size: 0.7em;
-    }
-} */
