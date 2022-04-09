@@ -1,14 +1,27 @@
-/* Colors */
-
-
-
-/* Nav */
+/* Containers */
 
 #navbar-container {
     padding-left: 0;
     padding-right: 0;
 
 }
+
+#main-container {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#quote-container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Nav */
+
+
 
 .navbar {
     background-color: rgba(0, 0, 0, .7);
@@ -35,17 +48,15 @@
     margin: 0;
 }
 
-/* Video Background Loop */
+/* Video Background */
 html {
     background-color: black;
     padding: 0;
     margin: 0;
 }
 
-.main-container {
-    position: relative;
-    text-align: center;
-}
+
+
 
 .video {
     width: 100%;
