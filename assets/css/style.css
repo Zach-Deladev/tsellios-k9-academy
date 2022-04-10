@@ -65,7 +65,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 250px;
+    padding-top: 100px;
 }
 
 .content {
@@ -73,9 +73,12 @@ p {
     text-align: center;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
-.centered-text {
+.heading-text {}
+
+/* .centered-text {
 
     color: white;
     font-size: 2em;
@@ -83,9 +86,30 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 150px;
+
+
+} */
+
+.quotes {
+    text-align: center;
+    padding-top: 10px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    left: 0;
+
+}
+
+.cont-text {
+    position: absolute;
+    bottom: 0;
 
 
 }
+
 
 /* Video background */
 
@@ -111,11 +135,7 @@ p {
 
 /* Containers */
 
-#quote-container {
-    text-align: center;
-    padding-top: 10px;
-    background-color: white;
-}
+
 
 #footer-container {
     background-color: black;
@@ -144,3 +164,31 @@ p {
 
 
 /* Media Queires */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 500px) {
+    .hidden-div-sm {
+        display: none;
+    }
+}
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+    #quote-id {
+        padding-top: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .quotes {
+        padding-top: 150px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
