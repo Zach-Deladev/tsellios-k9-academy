@@ -5,10 +5,9 @@ body {
 }
 
 p {
-    margin: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-
-/* Nav bar */
 
 /* Nav bar */
 
@@ -19,6 +18,7 @@ p {
 
 .navbar {
     background-color: rgba(0, 0, 0, .7);
+    display: flex;
 }
 
 .navbar-toggler {
@@ -32,13 +32,15 @@ p {
     z-index: 30;
     padding-left: 0;
     padding-right: 0;
+
 }
 
-.nav-logo {
-    max-height: 70px;
-    padding: 0;
-    margin: 0;
+.nav-container img {
+    width: 250px;
+    height: auto;
+
 }
+
 
 
 /* Main Content */
@@ -76,20 +78,7 @@ p {
     position: relative;
 }
 
-.heading-text {}
-
-/* .centered-text {
-
-    color: white;
-    font-size: 2em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-bottom: 150px;
-
-
-} */
+/* Quotes  */
 
 .quotes {
     text-align: center;
@@ -100,7 +89,16 @@ p {
     z-index: 20;
     top: 0;
     left: 0;
+    font-size: 16px;
 
+}
+
+.quotes {
+    font-size: 12px;
+}
+
+.quotes h4 {
+    font-size: 16px;
 }
 
 .cont-text {
@@ -129,66 +127,155 @@ p {
 
 }
 
+/* Footer */
 
+.footer-text {
+    font-size: 12px;
+}
 
-
-
-/* Containers */
-
-
+.footer-text h4 {
+    font-size: 16px;
+}
 
 #footer-container {
-    background-color: black;
+    background-color: rgba(0, 0, 0, .9);
     text-align: center;
     padding-top: 10px;
 }
 
+/*  Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
 
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
-
-.footer-container {
-    background-color: black;
+a,
+a:hover {
+    text-decoration: none;
 }
+
+.socialbtns {
+    text-align: center;
+}
+
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 40px;
+    height: 40px;
+    color: #000;
+    background-color: #FFF;
+    border: 2px solid rgb(31, 29, 29);
+    padding-top: 9px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.socialbtns .fa:hover {
+    color: #FFF;
+    background-color: #000;
+    border: 2px solid rgb(255, 254, 254);
+}
+
+
+/* About page */
+
+.about-info {
+    text-align: left;
+    padding-top: 10px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    left: 0;
+
+}
+
+.about-info h4 {
+    padding: 12px;
+}
+
+
+
+
+/* Training page */
+
+.training-info {}
+
+/* Contact page */
+
+.contact-info {}
 
 
 
 /* Media Queires */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 500px) {
-    .hidden-div-sm {
+
+/* Nav logo resizing */
+/* Turns off first quote when display is < 300px */
+
+@media (max-width: 300px) {
+    #quote-id {
         display: none;
     }
 }
 
 
+/* Quote text resizing */
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (max-width: 768px) {
-    #quote-id {
-        padding-top: 200px;
-    }
-}
-
-@media (min-width: 768px) {
+@media (max-width: 380px) {
     .quotes {
-        padding-top: 150px;
+        font-size: 10px;
     }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (max-width: 380px) {
+    .quotes h4 {
+        font-size: 14px;
+    }
+}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1400px) {
+    .quotes {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .quotes h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-text h4 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footer-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footer-text h4 {
+        font-size: 20px;
+    }
+}
