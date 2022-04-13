@@ -43,7 +43,11 @@ p {
 
 .nav-link:hover {
     text-decoration: underline;
+    text-decoration-color: #8E793E;
+
 }
+
+
 
 /* Heading  */
 
@@ -84,6 +88,7 @@ p {
 
 /* Card  */
 
+
 .cont-text {
     color: white;
     position: absolute;
@@ -91,8 +96,16 @@ p {
     width: 100%;
 }
 
-.card-image {
+.card {
+    line-height: 1.5;
     background-color: transparent;
+    border: 0;
+    max-height: 200px;
+}
+
+.card-image {
+    background-color: rgba(0, 0, 0, 0.2);
+
 
 }
 
@@ -100,22 +113,23 @@ p {
 
     border: 0px;
     background-color: rgba(0, 0, 0, .7);
-    max-height: 140px;
 
 }
 
-
-
-
-.card {
-    line-height: 1.5;
-    background-color: transparent;
+.card-body .btn-warning {
+    color: #fff;
+    background-color: #8E793E;
     border: 0;
 }
 
+
+
+
 .card-img {
-    max-height: 140px;
+    max-height: 193px;
     width: auto;
+    margin-top: 7px;
+
 }
 
 
@@ -196,6 +210,10 @@ p {
 
 .quick-links a:hover {
     text-decoration: underline;
+}
+
+.quick-links i {
+    font-size: 16px;
 }
 
 .copyright-info {
