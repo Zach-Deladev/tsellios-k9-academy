@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    line-height: 0;
 
 }
 
@@ -26,7 +26,7 @@ p {
 }
 
 .nav-container {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 30;
@@ -53,7 +53,7 @@ p {
 #main-container video {
     height: 100vh;
     width: 100%;
-    background-position: absolute;
+
     z-index: 10;
     object-fit: cover;
 
@@ -64,10 +64,7 @@ p {
     height: 100%;
     width: 100%;
     z-index: 20;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 100px;
+
 }
 
 .content {
@@ -75,37 +72,39 @@ p {
     text-align: center;
     margin: 0;
     padding: 0;
-    position: relative;
-}
-
-/* Quotes  */
-
-.quotes {
-    text-align: center;
-    padding-top: 10px;
-    background-color: transparent;
-    color: white;
-    width: 100%;
-    z-index: 20;
-    top: 0;
-    left: 0;
-    font-size: 16px;
+    /* position: absolute;
+    bottom: 0; */
 
 }
 
-.quotes {
-    font-size: 12px;
-}
-
-.quotes h4 {
-    font-size: 16px;
-}
+/* Card  */
 
 .cont-text {
+    color: white;
     position: absolute;
     bottom: 0;
+    width: 100%;
+}
+
+.card-img-bg {
+    background-color: transparent;
+    border: 0px;
+    background-color: rgba(0, 0, 0, .7);
+    max-height: 140px;
+
+}
+
+.card-body-bg {}
 
 
+
+.card {
+    line-height: 1.5;
+}
+
+.card-img {
+    max-height: 140px;
+    width: auto;
 }
 
 
@@ -129,21 +128,54 @@ p {
 
 /* Footer */
 
+#footer-container {
+
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, .7);
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.5;
+
+}
+
 .footer-text {
     font-size: 12px;
+
 }
 
 .footer-text h4 {
     font-size: 16px;
 }
 
-#footer-container {
-    background-color: rgba(0, 0, 0, .9);
-    text-align: center;
-    padding-top: 10px;
+
+
+.footer-text .btn {
+    padding: 0.2rem 0.4rem;
+
+}
+
+.footer-btn {
+    background-color: #000;
+    border: 2px solid rgb(255, 254, 254);
+    font-size: 12px;
+    margin: 5px;
+
+}
+
+.footer-btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid rgb(31, 29, 29);
+}
+
+.copyright-info {
+    font-size: 12px;
 }
 
 /*  Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
+
+
 
 a,
 a:hover {
@@ -167,22 +199,23 @@ a:hover {
 }
 
 .socialbtns .fa {
-    width: 40px;
-    height: 40px;
-    color: #000;
-    background-color: #FFF;
-    border: 2px solid rgb(31, 29, 29);
-    padding-top: 9px;
-    border-radius: 20px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -o-border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #000;
+    border: 2px solid rgb(255, 254, 254);
+    padding-top: 16px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .socialbtns .fa:hover {
-    color: #FFF;
-    background-color: #000;
-    border: 2px solid rgb(255, 254, 254);
+    color: #000;
+    background-color: #fff;
+    border: 2px solid rgb(31, 29, 29);
 }
 
 
@@ -277,5 +310,12 @@ a:hover {
 @media (min-width: 1400px) {
     .footer-text h4 {
         font-size: 20px;
+    }
+}
+
+/* Turn off card under 600px resolution */
+@media (max-width: 600px) {
+    .card {
+        display: none;
     }
 }
