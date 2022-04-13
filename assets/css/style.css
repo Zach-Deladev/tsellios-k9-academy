@@ -41,6 +41,12 @@ p {
 
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Heading  */
+
 
 
 /* Main Content */
@@ -72,8 +78,7 @@ p {
     text-align: center;
     margin: 0;
     padding: 0;
-    /* position: absolute;
-    bottom: 0; */
+
 
 }
 
@@ -86,20 +91,26 @@ p {
     width: 100%;
 }
 
-.card-img-bg {
+.card-image {
     background-color: transparent;
+
+}
+
+.card-body {
+
     border: 0px;
     background-color: rgba(0, 0, 0, .7);
     max-height: 140px;
 
 }
 
-.card-body-bg {}
 
 
 
 .card {
     line-height: 1.5;
+    background-color: transparent;
+    border: 0;
 }
 
 .card-img {
@@ -137,6 +148,13 @@ p {
     width: 100%;
     line-height: 1.5;
 
+
+}
+
+
+.footer-text {
+    margin: 0;
+    padding: 5px;
 }
 
 .footer-text {
@@ -157,7 +175,7 @@ p {
 
 .footer-btn {
     background-color: #000;
-    border: 2px solid rgb(255, 254, 254);
+    border: 0;
     font-size: 12px;
     margin: 5px;
 
@@ -166,7 +184,18 @@ p {
 .footer-btn:hover {
     color: #000;
     background-color: #fff;
-    border: 2px solid rgb(31, 29, 29);
+    border: 1px solid #000;
+
+}
+
+.quick-links a {
+    color: white;
+    line-height: 2;
+
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
 }
 
 .copyright-info {
@@ -184,6 +213,10 @@ a:hover {
 
 .socialbtns {
     text-align: center;
+}
+
+.socialbtns p {
+    font-size: 12px;
 }
 
 .socialbtns,
@@ -216,6 +249,10 @@ a:hover {
     color: #000;
     background-color: #fff;
     border: 2px solid rgb(31, 29, 29);
+}
+
+.socialbtns h4 {
+    font-size: 16px;
 }
 
 
@@ -296,7 +333,9 @@ a:hover {
 }
 
 @media (max-width: 380px) {
-    .footer-text h4 {
+
+    .footer-text h4,
+    .socialbtns h4 {
         font-size: 14px;
     }
 }
@@ -308,7 +347,9 @@ a:hover {
 }
 
 @media (min-width: 1400px) {
-    .footer-text h4 {
+
+    .footer-text h4,
+    .socialbtns h4 {
         font-size: 20px;
     }
 }
@@ -318,4 +359,20 @@ a:hover {
     .card {
         display: none;
     }
+}
+
+/* Social button resizing */
+
+@media (max-width: 1100px) {
+    .socialbtns .fa {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        padding-top: 6px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
 }
