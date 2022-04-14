@@ -96,7 +96,7 @@ p {
 
 
 
-/* Heading  */
+
 
 
 
@@ -105,6 +105,7 @@ p {
 #main-container {
     position: relative;
     overflow: hidden;
+
 }
 
 #main-container video {
@@ -117,7 +118,6 @@ p {
 }
 
 #main-container .content {
-    background: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     z-index: 20;
@@ -152,6 +152,10 @@ p {
 
 .jumbotron p {
     font-size: var(--fs-600);
+}
+
+.jumbo-small {
+    padding-top: 5px;
 }
 
 /* Card  */
@@ -211,6 +215,7 @@ p {
     overflow: hidden;
 }
 
+
 #vid-bg {
 
     min-width: 100%;
@@ -228,8 +233,9 @@ p {
 #footer-container {
 
     text-align: center;
+    text-transform: uppercase;
     padding-top: 10px;
-    background-color: rgba(0, 0, 0, .7);
+    /* background-color: rgba(0, 0, 0, .7); */
     overflow: hidden;
     width: 100%;
     line-height: 1.5;
@@ -291,6 +297,7 @@ a:hover {
 
 .socialbtns {
     text-align: center;
+    display: inline;
 
 }
 
@@ -303,11 +310,17 @@ a:hover {
 .socialbtns li {
     margin: 0;
     padding: 5px;
+    display: inline-block;
 }
 
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
+}
+
+.socialbtns ul {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 40px;
 }
 
 .socialbtns .fa {
@@ -329,7 +342,7 @@ a:hover {
 .socialbtns .fa:hover {
     color: #000;
     background-color: #fff;
-    border: 3px solid rgb(31, 29, 29);
+    border: 3px solid orangered;
 }
 
 .socialbtns h4 {
@@ -337,6 +350,11 @@ a:hover {
     text-transform: uppercase;
 }
 
+.social-hr {
+    border: 2px solid orangered;
+    width: 80px;
+    border-radius: 2px;
+}
 
 
 /* About page */
