@@ -4,15 +4,15 @@
     --ff-body: "Poppins", sans-serif;
     --ff-heading: "Exo", sans-serif;
 
-    --fs-xl: 3.5rem;
-    --fs-600: 2rem;
+    --fs-xl: 2.5rem;
+    --fs-600: 1.5rem;
     --fs-400: 1rem;
 }
 
 @media (max-width: 1140px) {
     :root {
-        --fs-xl: 3rem;
-        --fs-600: 1.5rem;
+        --fs-xl: 2.5rem;
+        --fs-600: 1.25rem;
         --fs-400: 0.75rem;
     }
 }
@@ -21,7 +21,7 @@
     :root {
         --fs-xl: 2rem;
         --fs-600: 1rem;
-        --fs-400: 0.5rem;
+        --fs-400: 0.75rem;
 
     }
 }
@@ -52,6 +52,10 @@ body {
 h1 {
     font-family: var(--ff-body);
     font-size: var(--fs-xl);
+}
+
+h4 {
+    font-size: var(--fs-600);
 }
 
 p {
@@ -385,23 +389,14 @@ a:hover {
 
 }
 
-
-.about-cont h1,
-h4,
-p {
-    color: #fff;
-    text-align: center;
+.about-info {
+    padding-top: 20px;
 }
 
-.about-cont-col {
-    margin: 0;
-    padding: 0;
 
-}
 
-.section-container {
-    background-color: rgba(0, 0, 0, .7);
-}
+
+
 
 /* Training page */
 
