@@ -36,6 +36,8 @@ p,
 blockquote {
     margin: 0;
     padding: 0;
+    line-height: 2;
+    color: #fff;
 }
 
 
@@ -369,24 +371,37 @@ a:hover {
 
 /* About page */
 
-.about-info {
-    text-align: left;
-    padding-top: 10px;
-    background-color: transparent;
-    color: white;
-    width: 100%;
-    z-index: 20;
-    top: 0;
-    left: 0;
+.about-container {
+    height: 100vh;
+    background: url("/assets/images/about-bg-image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
 }
 
-.about-info h4 {
-    padding: 12px;
+
+.about-cont h1,
+h4,
+p {
+    color: #fff;
+    text-align: center;
 }
 
+.about-cont-col {
+    margin: 0;
+    padding: 0;
 
+}
 
+.section-container {
+    background-color: rgba(0, 0, 0, .7);
+}
 
 /* Training page */
 
