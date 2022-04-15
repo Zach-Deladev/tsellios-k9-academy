@@ -53,103 +53,119 @@
     </div>
     <!-- Background video tag self taught from link https://www.w3schools.com/html/html5_video.asp -->
     <div id="main-container">
+
+
         <div class="video-container">
-            <video autoplay loop muted id="vid-bg">
+            <div class="bg-overlay">
+                <video autoplay loop muted id="vid-bg">
 
-                <source src="/assets/media/dog-training-bg.mp4" type="video/mp4" />
+                    <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
 
-            </video>
-        </div>
-
-
-        <!-- Background video content -->
-        <div class="container-fluid content">
-
-            <div class="heading-text row no-gutters">
+                </video>
 
 
 
+                <!-- Background video content -->
+                <div class="container-fluid content">
+                    <div class="row ">
+                        <!-- Jumbotron -->
+                        <div class="jumbotron">
 
-            </div>
-            <div class="cont-text justify-content-center row no-gutters">
+                            <div class="col-12">
+                                <h1>Tsellios K9 Academy</h1>
+                                <p class="lead">This is a simple hero unit, a simple
+                                    jumbotron-style component for
+                                    calling
+                                    extra
+                                    attention to featured content or information.</p>
+                                <hr class="social-hr">
+                                <div class="socialbtns">
 
-                <!-- Cards - https://getbootstrap.com/docs/4.5/components/card/ -->
-                <div class="card col-12 card-img-bg mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-4">
-                            <img src="/assets/images/puppy-image.png" class="card-img" alt="...">
-                        </div>
-                        <div class="col-8">
-                            <div class="card-body card-body-bg">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content.</p>
+                                    <ul>
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                <span class="sr-only">Instagram</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                                <span class="sr-only">Youtube</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                <span class="sr-only">LinkedIn</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <p class="jumbo-small"> <em>Follow us on Instagram, Youtube and LinkedIn!</em> </p>
+
+
+                                </div>
 
                             </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <!-- Cards - https://getbootstrap.com/docs/4.5/components/card/ -->
+
+                        <div class="col-12">
+
                         </div>
                     </div>
-                </div>
-                <!-- Footer -->
-
-                <div id="footer-container" class="row no-gutters">
-
-
-
-
-                    <div class=" col-4 footer-text">
-                        <h4>Quick Links:</h4>
-                        <ul class="list-unstyled">
-                            <li class="quick-links"> <a href="/about.html">About</a></li>
-                            <li class="quick-links"> <a href="/training.html">Training</a></li>
-                            <li class="quick-links"> <a href="/contact.html">Contact</a></li>
-                        </ul>
-
-                    </div>
-                    <div class=" col-4 footer-logo">
-                        <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Tsellios k9 academy logo">
-                    </div>
-                    <div class="col-4">
-
-
-                        <div class=socialbtns>
-                            <h4>Social Links:</h4>
-                            <ul>
-                                <li class="list-inline-item">
-                                    <a href="_blank" href="#">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                        <span class="sr-only">Instagram</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="_blank" href="#">
-                                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                                        <span class="sr-only">Youtube</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="_blank" href="#">
-                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                        <span class="sr-only">LinkedIn</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p> <em>Follow us on Instagram, Youtube and LinkedIn!</em </p>
-                        </div>
-                    </div>
-                    <div class="col-12 copyright-info">
-
-                        <p><strong> &copy; COPYRIGHT</strong></p>
-                    </div>
-
-
-
 
 
                 </div>
             </div>
 
-
         </div>
+
+        <!-- Footer -->
+        <div class="cont-text justify-content-center">
+            <div id="footer-container" class=" row no-gutters">
+                <div class=" col-4 footer-text">
+                    <h4><strong>Quick Links:</strong></h4>
+                    <ul class="list-unstyled">
+                        <li class="quick-links"> <a href="/about.html"><i class="fa fa-info-circle"
+                                    aria-hidden="true"></i> About</a></li>
+                        <li class="quick-links"> <a href="/training.html"><i class="fa fa-graduation-cap"
+                                    aria-hidden="true"></i> Training</a></li>
+                        <li class="quick-links"> <a href="/contact.html"><i class="fa fa-envelope"
+                                    aria-hidden="true"></i> Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class=" col-4 footer-logo">
+                    <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Tsellios k9 academy logo">
+                </div>
+                <div class=" col-4 footer-text">
+                    <h4><strong>Quick Links:</strong></h4>
+                    <ul class="list-unstyled">
+                        <li class="quick-links"> <a href="/about.html"><i class="fa fa-info-circle"
+                                    aria-hidden="true"></i> About</a></li>
+                        <li class="quick-links"> <a href="/training.html"><i class="fa fa-graduation-cap"
+                                    aria-hidden="true"></i> Training</a></li>
+                        <li class="quick-links"> <a href="/contact.html"><i class="fa fa-envelope"
+                                    aria-hidden="true"></i> Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-12 copyright-info">
+
+                    <p><strong> &copy; COPYRIGHT</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
     </div>
 
 
