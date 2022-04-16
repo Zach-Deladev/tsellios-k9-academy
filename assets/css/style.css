@@ -187,36 +187,24 @@ nav li {
 
 .jumbo-logo {}
 
-/* Card  */
+/* Cards  */
+
+.card-group {
+    background-color: rgb(66, 66, 66);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 .card {
     line-height: 1.5;
-    background-color: transparent;
-    border: 0;
-    max-height: 200px;
+    background-color: black;
+    margin: 30px;
+    text-align: center;
 }
 
-.card-image {
-    background-color: rgba(0, 0, 0, 0.2);
-}
 
-.card-body {
-    border: 0px;
-    background-color: rgba(0, 0, 0, .7);
 
-}
 
-.card-body .btn-warning {
-    color: #fff;
-    background-color: orangered;
-    border: 0;
-}
-
-.card-img {
-    max-height: 193px;
-    width: auto;
-    margin-top: 7px;
-}
 
 /* Footer */
 
