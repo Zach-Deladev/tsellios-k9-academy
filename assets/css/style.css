@@ -9,7 +9,7 @@
     --fs-400: 1rem;
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1600px) {
     :root {
         --fs-xl: 2.5rem;
         --fs-600: 1.25rem;
@@ -22,25 +22,20 @@
         --fs-xl: 2rem;
         --fs-600: 1rem;
         --fs-400: 0.75rem;
-
     }
 }
-
-
 
 body,
 h1,
 h2,
 h3,
 p,
-blockquote {
+li {
     margin: 0;
     padding: 0;
     line-height: 2;
     color: #fff;
 }
-
-
 
 body {
     font-family: var(--ff-body);
@@ -70,7 +65,7 @@ p {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: black;
     display: flex;
 }
 
@@ -85,33 +80,24 @@ p {
     z-index: 30;
     padding-left: 0;
     padding-right: 0;
-
 }
 
 .nav-container img {
     width: 250px;
     height: auto;
-
 }
 
 nav li {
     font-size: 16px;
 }
 
-
 .nav-link:hover {}
-
-
-
-
-
 
 /* Main Content */
 
 #main-container {
     position: relative;
     overflow: hidden;
-
 }
 
 #main-container video {
@@ -120,14 +106,12 @@ nav li {
 
     z-index: 10;
     object-fit: cover;
-
 }
 
 #main-container .content {
     height: 100%;
     width: 100%;
     z-index: 20;
-
 }
 
 .content {
@@ -135,8 +119,6 @@ nav li {
     text-align: center;
     margin: 0;
     padding: 0;
-
-
 }
 
 /* Jumbotron */
@@ -152,7 +134,6 @@ nav li {
     width: 100%;
     margin: 0;
 }
-
 
 .jumbotron h1 {
     font-size: var(--fs-xl);
@@ -176,13 +157,10 @@ nav li {
 
 /* Card  */
 
-
 .cont-text {
     color: white;
-    position: absolute;
     bottom: 0;
     width: 100%;
-
 }
 
 .card {
@@ -190,19 +168,13 @@ nav li {
     background-color: transparent;
     border: 0;
     max-height: 200px;
-    position: absolute;
-
-
 }
 
 .card-image {
     background-color: rgba(0, 0, 0, 0.2);
-
-
 }
 
 .card-body {
-
     border: 0px;
     background-color: rgba(0, 0, 0, .7);
 
@@ -214,16 +186,11 @@ nav li {
     border: 0;
 }
 
-
-
-
 .card-img {
     max-height: 193px;
     width: auto;
     margin-top: 7px;
-
 }
-
 
 /* Video background */
 
@@ -231,17 +198,13 @@ nav li {
     overflow: hidden;
 }
 
-
 #vid-bg {
-
     min-width: 100%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-
-
 }
 
 /* Footer */
@@ -255,29 +218,23 @@ nav li {
     overflow: hidden;
     width: 100%;
     line-height: 1.5;
-
-
 }
-
 
 .footer-text {
     margin: 0;
     padding: 5px;
     text-align: center;
     font-size: 12px;
-
 }
 
 .footer-text h4 {
     font-size: 16px;
-
 }
 
 .quick-links a {
     color: white;
     line-height: 2;
     padding-left: 5px;
-
 }
 
 .quick-links a:hover {
@@ -297,14 +254,11 @@ nav li {
 }
 
 .footer-logo img {
-
     max-height: 60px;
     width: auto;
 }
 
 /*  Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
-
-
 
 a,
 a:hover {
@@ -314,8 +268,6 @@ a:hover {
 .socialbtns {
     text-align: center;
     display: inline;
-
-
 }
 
 .socialbtns p {
@@ -338,7 +290,6 @@ a:hover {
 .socialbtns ul {}
 
 .socialbtns .fa {
-
     width: 60px;
     height: 60px;
     color: #fff;
@@ -350,7 +301,6 @@ a:hover {
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     -o-border-radius: 30px;
-
 }
 
 .socialbtns .fa:hover {
@@ -376,7 +326,7 @@ a:hover {
 /* About page */
 
 .about-container {
-    height: 100vh;
+    height: 95vh;
     background: url("/assets/images/about-bg-image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -386,17 +336,12 @@ a:hover {
     align-items: center;
     justify-content: center;
     position: relative;
-
+    padding-top: 10px;
 }
 
 .about-info {
     padding-top: 20px;
 }
-
-
-
-
-
 
 /* Training page */
 
@@ -407,30 +352,14 @@ a:hover {
 .contact-info {}
 
 
-
 /* Media Queires */
 
-/* Turns off first quote when display is < 300px */
-
-@media (max-width: 300px) {
-    #quote-id {
-        display: none;
-    }
-}
-
-/* Turn off card under 600px resolution */
-@media (max-width: 600px) {
-    .card {
-        display: none;
-    }
-}
 
 /* Social Icons */
 
 @media (max-width: 480px) {
 
     .socialbtns .fa {
-
         width: 40px;
         height: 40px;
         font-size: 18px;
@@ -440,8 +369,6 @@ a:hover {
         -moz-border-radius: 20px;
         -webkit-border-radius: 20px;
         -o-border-radius: 20px;
-
-
     }
 
     .social-hr {
