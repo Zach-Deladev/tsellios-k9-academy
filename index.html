@@ -52,19 +52,20 @@
             </nav>
         </div>
     </section>
-    <!-- Background video tag self taught from link https://www.w3schools.com/html/html5_video.asp -->
+
+    <!-- Main Content -->
+
+    <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
     <header id="main-container">
         <div class="video-container">
             <div class="bg-overlay">
                 <video autoplay loop muted id="vid-bg">
                     <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
                 </video>
-                <!-- Background video content -->
                 <div class="container-fluid content">
                     <div class="row ">
                         <!-- Jumbotron -->
                         <div class="jumbotron">
-
                             <div class="col-12">
                                 <h1>Tsellios K9 Academy</h1>
                                 <p class="lead">This is a simple hero unit, a simple
@@ -102,20 +103,59 @@
                     </div>
                     <div class="row">
                         <!-- Cards - https://getbootstrap.com/docs/4.5/components/card/ -->
-                        <div class="col-12">
-                        </div>
-
-
-
-
+                        <!-- <div class="col-12">
+                        </div> -->
 
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-- Iframe https://www.w3schools.com/howto/howto_css_responsive_iframes.asp -->
+    <section class="yt-cont">
+        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/cR23dh1iAc0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+    <!-- Card template from https://getbootstrap.com/docs/5.1/components/card/ -->
+    <section>
+        <div class="card-group">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- Footer -->
-    <footer class="cont-text justify-content-center">
+
+    <footer class="footer justify-content-center">
         <div id="footer-container" class=" row no-gutters">
             <div class=" col-4 footer-text">
                 <h4><strong>Quick Links:</strong></h4>
@@ -147,11 +187,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
 
     <!-- Libaries added to enable Nav bar -->
 

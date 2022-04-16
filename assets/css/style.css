@@ -41,7 +41,6 @@ body {
     font-family: var(--ff-body);
     font-size: var(--fs-400);
     line-height: 0;
-
 }
 
 h1 {
@@ -55,6 +54,22 @@ h4 {
 
 p {
     font-size: var(--fs-400);
+}
+
+/* Video background */
+
+.video-container {
+    overflow: hidden;
+}
+
+#vid-bg {
+
+    min-width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 /* Nav bar */
@@ -101,9 +116,8 @@ nav li {
 }
 
 #main-container video {
-    height: 100vh;
+    height: 75vh;
     width: 100%;
-
     z-index: 10;
     object-fit: cover;
 }
@@ -119,6 +133,24 @@ nav li {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.yt-cont {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    padding-top: 56.25%;
+    background-color: black;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 12.5%;
+    left: 12.5%;
+    bottom: 12.5%;
+    right: 12.5%;
+    height: 75%;
+    width: 75%;
 }
 
 /* Jumbotron */
@@ -157,12 +189,6 @@ nav li {
 
 /* Card  */
 
-.cont-text {
-    color: white;
-    bottom: 0;
-    width: 100%;
-}
-
 .card {
     line-height: 1.5;
     background-color: transparent;
@@ -192,29 +218,20 @@ nav li {
     margin-top: 7px;
 }
 
-/* Video background */
-
-.video-container {
-    overflow: hidden;
-}
-
-#vid-bg {
-    min-width: 100%;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
 /* Footer */
+
+.footer {
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+}
 
 #footer-container {
 
     text-align: center;
     text-transform: uppercase;
     padding-top: 10px;
-    /* background-color: rgba(0, 0, 0, .7); */
     overflow: hidden;
     width: 100%;
     line-height: 1.5;
@@ -377,4 +394,18 @@ a:hover {
         border-radius: 2px;
     }
 
+}
+
+/* Youtube Video */
+
+@media (max-width: 768px) {
+    .youtube-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
