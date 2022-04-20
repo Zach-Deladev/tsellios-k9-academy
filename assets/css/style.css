@@ -202,10 +202,6 @@ nav li {
     text-align: center;
 }
 
-
-
-
-
 /* Footer */
 
 .footer {
@@ -327,7 +323,6 @@ a:hover {
     margin-top: 8px;
 }
 
-
 /* About page */
 
 .about-container {
@@ -354,7 +349,12 @@ a:hover {
 
 /* Contact page */
 
-.contact-info {}
+.social-contact {
+    background-color: #000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Media Queires */
