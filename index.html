@@ -23,35 +23,7 @@
 
 <body>
     <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
-    <section>
-        <div id="navbar-container" class="container-fluid nav-container ">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/tsellios-logo-wh.png" class="nav-logo"
-                        alt="Tsellios k9 academy logo"></a>
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active mr-2">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="training.html">Training</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </section>
+
 
     <!-- Main Content -->
 
@@ -59,6 +31,33 @@
     <header id="main-container">
         <div class="video-container">
             <div class="bg-overlay">
+                <section>
+                    <div id="navbar-container" class="container-fluid nav-container ">
+                        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                            <a class="navbar-brand" href="index.html"><img src="assets/images/tsellios-logo-wh.png"
+                                    class="nav-logo" alt="Tsellios k9 academy logo"></a>
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active mr-2">
+                                        <a class="nav-link" href="index.html">Home <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </section>
                 <video autoplay loop muted id="vid-bg">
                     <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
                 </video>
@@ -67,12 +66,8 @@
                         <!-- Jumbotron -->
                         <div class="jumbotron">
                             <div class="col-12">
-                                <h1>Tsellios K9 Academy</h1>
-                                <p class="lead">This is a simple hero unit, a simple
-                                    jumbotron-style component for
-                                    calling
-                                    extra
-                                    attention to featured content or information.</p>
+                                <h1><span style="text-transform: uppercase;">Tsellios K9 Academy</span></h1>
+
                                 <hr class="social-hr">
                                 <div class="socialbtns">
 
@@ -101,12 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <!-- Cards - https://getbootstrap.com/docs/4.5/components/card/ -->
-                        <!-- <div class="col-12">
-                        </div> -->
 
-                    </div>
                 </div>
             </div>
         </div>
@@ -118,45 +108,6 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </section>
-    <!-- Card template from https://getbootstrap.com/docs/5.1/components/card/ -->
-    <div class="container-fluid">
-        <section class="row">
-            <div class="card-group">
-                <div class="card">
-                    <img src="/assets/images/dog-training-behavioral.jpg" class="card-img-top"
-                        alt="Behavioral Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Behavioral Training</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/dog-training-obedience.jpg" class="card-img-top"
-                        alt="Obedience Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Obedience Training</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/dog-Training-protection.jpeg" class="card-img-top"
-                        alt="Protection Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Protection Training</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-    </div>
     <!-- Footer -->
 
     <footer class="footer justify-content-center">

@@ -57,6 +57,9 @@ p {
 }
 
 /* Video background */
+.bg-overlay {
+    position: relative;
+}
 
 .video-container {
     overflow: hidden;
@@ -80,7 +83,7 @@ p {
 }
 
 .navbar {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
 }
 
@@ -104,7 +107,11 @@ p {
 
 nav li {
     font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
 }
+
+
 
 .nav-link:hover {}
 
@@ -116,7 +123,7 @@ nav li {
 }
 
 #main-container video {
-    height: 75vh;
+    height: 80vh;
     width: 100%;
     z-index: 10;
     object-fit: cover;
@@ -146,11 +153,11 @@ nav li {
 .youtube-video {
     position: absolute;
     top: 12.5%;
-    left: 12.5%;
+    left: 13%;
     bottom: 12.5%;
-    right: 12.5%;
+    right: 13%;
     height: 75%;
-    width: 75%;
+    width: 74%;
 }
 
 /* Jumbotron */
@@ -158,18 +165,20 @@ nav li {
 .jumbotron {
     background-color: transparent;
     position: absolute;
-    top: 20%;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     line-height: 2;
     text-align: center;
     width: 100%;
     margin: 0;
+
 }
 
 .jumbotron h1 {
     font-size: var(--fs-xl);
-    text-transform: uppercase;
+
 }
 
 .jumbotron p {
@@ -268,7 +277,7 @@ a:hover {
 
 .socialbtns {
     text-align: center;
-    display: inline;
+
 }
 
 .socialbtns p {
@@ -325,8 +334,25 @@ a:hover {
 
 /* About page */
 
-.about-container {
-    height: 95vh;
+
+#about-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#about-container video {
+    height: 40vh;
+    width: 100%;
+    z-index: 10;
+    object-fit: cover;
+}
+
+
+/* Training page */
+
+
+.training-container {
+    height: 60vh;
     background: url("/assets/images/about-bg-image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -338,14 +364,6 @@ a:hover {
     position: relative;
     padding-top: 10px;
 }
-
-.about-info {
-    padding-top: 20px;
-}
-
-/* Training page */
-
-.training-info {}
 
 /* Contact page */
 
@@ -359,6 +377,18 @@ a:hover {
 
 /* Media Queires */
 
+/* Nav bar */
+
+@media (max-width:768px) {
+    nav li {
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 8px;
+        padding-left: 5px;
+        margin: 2px;
+        text-align: center;
+    }
+}
 
 /* Social Icons */
 
@@ -395,5 +425,13 @@ a:hover {
         right: 0;
         height: 100%;
         width: 100%;
+    }
+}
+
+/* About heading  */
+
+@media (min-width: 765px) {
+    .jumbotron h1 {
+        font-size: 5rem;
     }
 }
