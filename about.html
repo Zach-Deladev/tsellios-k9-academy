@@ -75,8 +75,14 @@
     </header>
 
     <!-- Card template from https://getbootstrap.com/docs/5.1/components/card/ -->
-    <div class="container-fluid">
-        <section class="row">
+    <section class="about-training container-fluid">
+
+        <div class="row">
+
+            <div class="training-head col-12">
+
+                <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> Training</h1>
+            </div>
             <div class="card-group">
                 <div class="card">
                     <img src="/assets/images/dog-training-behavioral.jpg" class="card-img-top"
@@ -110,9 +116,28 @@
                     </div>
                 </div>
             </div>
+            <div class="breeding-head col-12">
 
-        </section>
-    </div>
+                <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> Breeding</h1>
+            </div>
+            <div class="breeding">
+                <div class="breeding-image">
+                    <img src="/assets/images/puppy.jpeg" alt="Puppy image">
+                </div>
+                <div class="breeding-text">
+                    <h4>New Puppies!</h4>
+                    <p>This is a wider card with supporting text below as a natural lead-in to
+                        additional content.
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content.
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content.
+                    </p>
+
+                </div>
+
+            </div>
+    </section>
 
 
     <section class="row">
@@ -196,6 +221,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+    <!-- Nav bar change color on scroll code reference: https://jsfiddle.net/RichardD/up15a9vb/ -->
     <script>
         $(function () {
             $(window).on("scroll", function () {

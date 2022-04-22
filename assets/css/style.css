@@ -27,8 +27,7 @@
 
 html,
 body {
-    height: 100%;
-
+    overflow-x: hidden;
 }
 
 body,
@@ -83,6 +82,8 @@ p {
 }
 
 /* Nav bar */
+
+/* Nav bar change color on scroll code reference: https://jsfiddle.net/RichardD/up15a9vb/ */
 #main-nav {
     background: transparent;
     transition: background 0.3s;
@@ -370,10 +371,75 @@ a:hover {
 }
 
 #about-container video {
-    height: 45vh;
+    height: 60vh;
     width: 100%;
     z-index: 10;
     object-fit: cover;
+}
+
+.about-training {
+    background-color: black;
+
+}
+
+.about-training h1 {
+    padding-top: 25px;
+    display: inline-block;
+}
+
+.training-head {
+    background-color: black;
+    text-align: center;
+}
+
+.training-head img {
+    max-height: 60px;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+
+.breeding-head {
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+
+}
+
+.breeding-head img {
+    max-height: 60px;
+    border: 2px solid orangered;
+    border-radius: 30px;
+
+}
+
+.breeding {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(23, 23, 23);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.breeding img {
+    max-height: 300px;
+    border: 3px solid orangered;
+    border-radius: 150px;
+
+
+
+}
+
+.breeding-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.breeding-image {
+    flex-wrap: wrap;
 }
 
 /* Contact page */
@@ -450,5 +516,24 @@ a:hover {
 @media (min-width: 765px) {
     .jumbotron h1 {
         font-size: 4rem;
+    }
+}
+
+/* Breeding section */
+
+@media (max-width: 600px) {
+
+    .breeding {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 5px;
+    }
+
+    .breeding-image {
+        text-align: center;
+    }
+
+    .breeding-text {
+        padding-top: 10px;
     }
 }
