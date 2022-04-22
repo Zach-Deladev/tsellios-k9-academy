@@ -385,7 +385,7 @@ a:hover {
 }
 
 #about-container-two video {
-    height: 40vh;
+    height: 25vh;
     width: 100%;
     z-index: 10;
     object-fit: cover;
@@ -568,7 +568,8 @@ a:hover {
 
 @media (max-width: 600px) {
 
-    .breeding {
+    .breeding,
+    .about {
         flex-direction: column;
         text-align: center;
         padding: 20px 5px;
