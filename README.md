@@ -1,10 +1,27 @@
-<h1 align="center">Dog Training Website</h1>
+<h1 align="center">Tsellios K9 Academy</h1>
 
+
+
+<h2 align="center"><img src="https://thumbs.dreamstime.com/b/police-dog-training-attack-man-police-dog-training-99662822.jpg"></h2>
+
+### **Project Overview**
 [View the live project here.](https://example.com)
 
 This is the main marketing website for Tsellios K9 Academy. It is designed to be responsive and accessible on both mobile and desktop devices, making it easy to both use and navigate for potential customers.
 
-<h2 align="center"><img src="https://thumbs.dreamstime.com/b/police-dog-training-attack-man-police-dog-training-99662822.jpg"></h2>
+This project is the first milestone project completed by myself while working towards my qualification with the Code Institute. 
+
+The main goal of the Tsellios K9 Academy website is to market the dog training and breeding services of the business owner and promoting their social media accounts to build a strong online following. 
+
+# **CONTENT** 
+
+- [Project Overview](#project-overview "Project Overview")
+- [UX Design](#user-experience "User Design")
+- [Technologies Used](#technologies-used "Technologies Used")
+- [Testing](#testing "Testing")
+- [Deployment](#deployment "Deployment")
+- [Credits](#credits "Credits")
+- [Acknowledgements](#acknowledgements "Acknowledgements")
 
 ## User Experience (UX)
 
@@ -29,7 +46,10 @@ This is the main marketing website for Tsellios K9 Academy. It is designed to be
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are black, grey, and white.
+        -   The three main colours used are black, grey, and white. 
+        -   There is also subtle use of the OrangeRed color to draw user attention.
+    ![Color Palette](.assets/images/colour palette.png "Color Palette")
+    
     -   #### Typography
         -   [Include details about the font you used, and their style].
     -   #### Media
