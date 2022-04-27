@@ -46,7 +46,10 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are black, grey, and white.
+        -   The three main colours used are black, grey, and white. 
+        -   There is also subtle use of the OrangeRed color to draw user attention.
+    ![Color Palette](.assets/images/colour palette.png "Color Palette")
+    
     -   #### Typography
         -   [Include details about the font you used, and their style].
     -   #### Media
