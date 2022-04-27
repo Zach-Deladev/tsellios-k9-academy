@@ -385,7 +385,7 @@ a:hover {
 }
 
 #about-container-two video {
-    height: 25vh;
+    height: 35vh;
     width: 100%;
     z-index: 10;
     object-fit: cover;
