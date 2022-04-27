@@ -54,9 +54,8 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
     -   #### Typography
         -   [Include details about the font you used, and their style].
 
-        ![Exo Font](./assets/images/exo-font.png "Exo Font")
 
-        ![Poppins Font](./assets/images/poppins-font.png "Poppins Font")
+        ![Fonts](./assets/images/fonts.png "Fonts")
 
     -   #### Media
         -   The large, background hero video is designed to be catch the potential customers attention. It quickly displays social media links to guide traffic and build a social media following.
