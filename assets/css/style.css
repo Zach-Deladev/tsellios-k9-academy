@@ -134,8 +134,6 @@ nav li {
 
 }
 
-
-
 /* Main Content */
 
 #main-container {
@@ -327,8 +325,6 @@ a:hover {
     display: inline-block;
 }
 
-.socialbtns ul {}
-
 .socialbtns .fa {
     width: 60px;
     height: 60px;
@@ -363,7 +359,6 @@ a:hover {
 }
 
 /* About page */
-
 
 #about-container {
     position: relative;
@@ -466,10 +461,7 @@ a:hover {
     align-items: center;
     display: flex;
     flex-direction: row;
-
-
 }
-
 
 .breeding img {
     max-height: 300px;
@@ -484,6 +476,7 @@ a:hover {
 
 .breeding-image {
     flex-wrap: wrap;
+    padding-right: 70px;
 
 }
 
@@ -495,7 +488,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
 
 /* Media Queires */
 
@@ -521,7 +513,6 @@ a:hover {
 /* Social Icons */
 
 @media (max-width: 480px) {
-
     .socialbtns .fa {
         width: 40px;
         height: 40px;
@@ -580,6 +571,6 @@ a:hover {
     }
 
     .breeding-text {
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
