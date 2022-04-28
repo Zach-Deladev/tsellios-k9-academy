@@ -26,7 +26,7 @@
 
 
     <!-- Background video tag self taught from link https://www.w3schools.com/html/html5_video.asp -->
-    <header id="about-container">
+    <header id="contact-container">
         <div class="video-container">
             <div class="bg-overlay">
                 <section>
@@ -61,13 +61,35 @@
                 </video>
                 <div class="container-fluid content">
                     <div class="row ">
-                        <!-- Jumbotron -->
                         <div class="jumbotron">
                             <div class="breeding-head col-12">
 
                                 <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo">
                                     Get in touch...</h1>
                             </div>
+                            <section class="container-fluid contact">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3 class="contact-title uppercase text-center">We'd be happy to help.</h3>
+                                        <div class="contact-form">
+                                            <form>
+                                                <input type="text" name="name" id="fullname" class="form-control"
+                                                    placeholder="Name" required />
+                                                <input type="email" name="email" id="emailaddress" class="form-control"
+                                                    placeholder="Email" required />
+                                                <textarea rows="5" name="query" id="query" class="form-control"
+                                                    placeholder="Enter your query here" required></textarea>
+                                                <div class="form-row text-center">
+                                                    <div class="col">
+                                                        <button type="submit" class="btn contact-btn">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
 
@@ -75,31 +97,7 @@
             </div>
         </div>
     </header>
-    <section class="container-fluid contact">
-        <div class="row">
-            <div class="col">
-                <h3 class="contact-title uppercase text-center">Want more information?</h3>
 
-
-                <div class="contact-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                            required />
-                        <textarea rows="8" name="query" id="query" class="form-control"
-                            placeholder="Enter your query here" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn contact-btn">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
 
 
     <section class="row">
@@ -133,6 +131,7 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="footer justify-content-center">
         <div id="footer-container" class=" row no-gutters">
@@ -170,7 +169,6 @@
         </div>
     </footer>
     </div>
-
 
     <!-- Libaries added to enable Nav bar -->
 

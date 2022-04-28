@@ -1,4 +1,4 @@
-/* Font sizing */
+/* ----------Font sizing */
 
 :root {
     --ff-body: "Poppins", sans-serif;
@@ -62,7 +62,7 @@ p {
     font-size: var(--fs-400);
 }
 
-/* Video background */
+/* ----------Video background */
 .bg-overlay {
     position: relative;
 }
@@ -81,7 +81,7 @@ p {
     filter: grayscale(100%);
 }
 
-/* Nav bar */
+/* ----------Nav bar */
 
 /* Nav bar change color on scroll code reference: https://jsfiddle.net/RichardD/up15a9vb/ */
 #main-nav {
@@ -134,7 +134,7 @@ nav li {
 
 }
 
-/* Main Content */
+/* ----------Main Content */
 
 #main-container {
     position: relative;
@@ -179,7 +179,7 @@ nav li {
     width: 74%;
 }
 
-/* Jumbotron */
+/* ----------Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -215,7 +215,7 @@ nav li {
 
 .jumbo-logo {}
 
-/* Cards  */
+/* ----------Cards */
 
 .card-group {
     background-color: #000;
@@ -230,7 +230,7 @@ nav li {
     text-align: center;
 }
 
-/* Footer */
+/* ----------Footer */
 
 .footer {
     color: white;
@@ -296,7 +296,7 @@ nav li {
     width: 74%;
 }
 
-/*  Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
+/* ----------Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
 
 a,
 a:hover {
@@ -358,7 +358,7 @@ a:hover {
     margin-top: 13px;
 }
 
-/* About page */
+/* -----------About page */
 
 #about-container {
     position: relative;
@@ -413,9 +413,9 @@ a:hover {
 }
 
 .about img {
-    max-height: 300px;
+    max-height: 200px;
     border: 3px solid orangered;
-    border-radius: 150px;
+    border-radius: 100px;
 }
 
 
@@ -464,9 +464,9 @@ a:hover {
 }
 
 .breeding img {
-    max-height: 300px;
+    max-height: 200px;
     border: 3px solid orangered;
-    border-radius: 150px;
+    border-radius: 100px;
 }
 
 .breeding-text {
@@ -476,14 +476,28 @@ a:hover {
 
 .breeding-image {
     flex-wrap: wrap;
-    padding-right: 70px;
+    padding: 15px 70px 15px 0;
 
 }
 
-/* Contact page */
+/* ----------Contact page */
+
+#contact-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+#contact-container video {
+    height: 90vh;
+    width: 100%;
+    z-index: 10;
+    object-fit: cover;
+}
 
 .contact {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 .social-contact {
@@ -517,7 +531,7 @@ button[type="submit"] {
 
 }
 
-/* Media Queires */
+/* ----------Media Queires */
 
 /* Nav bar */
 
@@ -601,5 +615,19 @@ button[type="submit"] {
 
     .breeding-text {
         padding-bottom: 10px;
+    }
+}
+
+/* Contact page */
+
+@media (max-width: 480px) {
+    .contact-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .breeding-head {
+        padding-top: 30px;
     }
 }
