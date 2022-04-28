@@ -87,7 +87,7 @@ p {
 #main-nav {
     background: transparent;
     transition: background 0.3s;
-    padding: 0 5px 0 15px;
+    padding: 17px 5px 0 15px;
 
 }
 
@@ -134,6 +134,10 @@ nav li {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.nav-item:hover {
+    background-color: rgb(128, 128, 128, 0.5);
+}
+
 .contact-link {
     background-color: rgb(255, 69, 0, 0.3);
     text-transform: uppercase;
@@ -160,10 +164,10 @@ nav li {
 
 .alert-div {
     margin: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     position: fixed;
-    bottom: 0;
+    top: 0;
     z-index: 999;
     padding: 0 5px;
 
@@ -345,6 +349,14 @@ nav li {
     margin-bottom: 13px;
     margin-top: 13px;
     width: 74%;
+}
+
+.footer-wrap {
+    width: 100%;
+}
+
+.footer .row {
+    margin-left: 0;
 }
 
 /* ----------Social media icons from: https://codepen.io/vpdemo/pen/dPdymj */
@@ -601,6 +613,12 @@ button[type="submit"] {
     }
 }
 
+@media (min-width: 767px) {
+    #main-nav {
+        padding: 0 5px 0 15px;
+    }
+}
+
 /* Contact us alert on small screens */
 @media (max-width: 767px) {
     .alert {
@@ -610,7 +628,7 @@ button[type="submit"] {
 
 /* Social Icons */
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
     .socialbtns .fa {
         width: 40px;
         height: 40px;
@@ -629,6 +647,9 @@ button[type="submit"] {
         border-radius: 2px;
     }
 
+    .socialbtns p {
+        font-size: 10px;
+    }
 }
 
 /* Youtube Video */
@@ -699,5 +720,30 @@ button[type="submit"] {
 @media (max-width: 400px) {
     .breeding-head {
         padding-top: 30px;
+    }
+}
+
+/* Footer */
+@media (max-width: 890px) {
+    .footer .socialbtns .fa {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        border: 2px solid orangered;
+        padding-top: 10px;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .footer .social-hr {
+        border: 1px solid orangered;
+        width: 50px;
+        border-radius: 2px;
+    }
+
+    .footer .socialbtns p {
+        font-size: 10px;
     }
 }
