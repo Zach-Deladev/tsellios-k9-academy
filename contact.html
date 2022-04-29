@@ -22,14 +22,12 @@
 </head>
 
 <body>
-    <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
-
-
     <!-- Background video tag self taught from link https://www.w3schools.com/html/html5_video.asp -->
     <header id="contact-container">
         <div class="video-container">
             <div class="bg-overlay">
                 <section>
+                    <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
                     <div id="navbar-container" class="container-fluid nav-container">
                         <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
                             <a class="navbar-brand" href="index.html"><img src="assets/images/tsellios-logo-wh.png"
@@ -56,11 +54,10 @@
                         </nav>
                     </div>
                 </section>
-
                 <video autoplay loop muted id="vid-bg">
                     <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
                 </video>
-                <div class="container-fluid content">
+                <section class="container-fluid content">
                     <div class="row ">
                         <div class="jumbotron">
                             <div class="breeding-head col-12">
@@ -68,12 +65,13 @@
                                 <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo">
                                     Get in touch...</h1>
                             </div>
-                            <section class="container-fluid contact">
+                            <div class="container-fluid contact">
                                 <div class="row">
                                     <div class="col">
                                         <h3 class="contact-title uppercase text-center">We'd be happy to help.</h3>
                                         <div class="contact-form">
-                                            <form>
+                                            <form method="post" action="mailto:zach.delapenha.developer@gmail.com"
+                                                enctype="text/plain" target="_blank">
                                                 <input type="text" name="name" id="fullname" class="form-control"
                                                     placeholder="Name" required />
                                                 <input type="email" name="email" id="emailaddress" class="form-control"
@@ -82,97 +80,68 @@
                                                     placeholder="Enter your query here" required></textarea>
                                                 <div class="form-row text-center">
                                                     <div class="col">
-                                                        <button type="submit" class="btn contact-btn">Submit</button>
+                                                        <input type="submit" value="Send Message"
+                                                            class="btn contact-btn"></input>
                                                     </div>
                                                 </div>
                                             </form>
                                         </div>
-
                                     </div>
                                 </div>
-                            </section>
+                            </div>
                         </div>
                     </div>
-
-                </div>
+                </section>
             </div>
         </div>
     </header>
 
-
-
-    <section class="row">
-        <div class="col-12">
-
-            <div class="socialbtns social-contact">
-
-                <ul>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <p class="jumbo-small"> <em>Follow us on Instagram, Youtube and LinkedIn!</em> </p>
-
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer justify-content-center">
         <div id="footer-container" class=" row no-gutters">
-            <div class="col-12">
-                <hr class="footer-hr">
-            </div>
-            <div class=" col-4 footer-text">
-                <h4><strong>Quick Links:</strong></h4>
-                <ul class="list-unstyled">
-                    <li class="quick-links"> <a href="/about.html"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                            About</a></li>
-                    <li class="quick-links"> <a href="/training.html"><i class="fa fa-graduation-cap"
-                                aria-hidden="true"></i> Training</a></li>
-                    <li class="quick-links"> <a href="/contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>
-                            Contact</a></li>
-                </ul>
-            </div>
-            <div class=" col-4 footer-logo">
-                <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Tsellios k9 academy logo">
-            </div>
-            <div class=" col-4 footer-text">
-                <h4><strong>Quick Links:</strong></h4>
-                <ul class="list-unstyled">
-                    <li class="quick-links"> <a href="/about.html"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                            About</a></li>
-                    <li class="quick-links"> <a href="/training.html"><i class="fa fa-graduation-cap"
-                                aria-hidden="true"></i> Training</a></li>
-                    <li class="quick-links"> <a href="/contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>
-                            Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-12 copyright-info">
-                <p><strong> &copy; COPYRIGHT</strong></p>
+            <div class="footer-wrap row">
+                <div class="col-12">
+                    <div class="socialbtns social-contact">
+                        <ul>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">Youtube</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="jumbo-small"> <em>Follow us on Instagram, Youtube and LinkedIn!</em> </p>
+                    </div>
+                    <br>
+                    <div class="socialbtns social-contact">
+                        <h4><strong>Quick Links:</strong></h4>
+                        <ul class="list-unstyled">
+                            <li class="quick-links"> <a href="/index.html">Home &nbsp;</a></li>
+                            <li class="quick-links"> <a href="/about.html">&nbsp; About &nbsp;</a></li>
+                            <li class="quick-links"> <a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 copyright-info">
+                        <p><strong> &copy; COPYRIGHT</strong></p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    </div>
 
     <!-- Libaries added to enable Nav bar -->
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

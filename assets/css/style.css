@@ -272,7 +272,7 @@ nav li {
 .card-group {
     background-color: #000;
     padding-top: 0;
-    padding-bottom: 75px;
+
 }
 
 .card {
@@ -443,7 +443,7 @@ a:hover {
 }
 
 #about-container-two video {
-    height: 35vh;
+    height: 28vh;
     width: 100%;
     z-index: 10;
     object-fit: cover;
@@ -581,7 +581,7 @@ a:hover {
     max-width: 70%;
 }
 
-button[type="submit"] {
+input {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fff;
@@ -690,7 +690,7 @@ button[type="submit"] {
 
 /* Breeding section */
 
-@media (max-width: 600px) {
+@media (max-width: 976px) {
 
     .breeding,
     .about {
