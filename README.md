@@ -17,6 +17,11 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 - [Project Overview](#project-overview "Project Overview")
 - [UX Design](#user-experience "User Design")
+  - [Strategy Plane](#strategy-plane "Strategy Plane")
+  - [Scope plane](#scope-plane "Scope plane")
+  - [Structure Plane](#structure-plane "Structure plane")
+  - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
+  - [Surface Plane](#surface-plane "Surface Plane")
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
 - [Deployment](#deployment "Deployment")
@@ -25,48 +30,137 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 ## User Experience (UX)
 
--   ### User stories
+## **Strategy Plane** 
+---
+### **Target Audience**
 
-    -   #### First Time Visitor Goals
+- Aspiring security dog handlers.
+- Existing security dog habndlers.
+- Domestic dog owners. 
+- Potential new dog owners.
+- Dog owners with training needs.s
+
+### **User Needs**
+
+- High quality, easily accessible online learning resources.
+- One to one training sessions.
+- Ability to enquire about buying trained puppies.
+- Guidance on best training practices.
+
+### **Business Goals**
+
+- Promote social media pages to grow the businesses online community.
+- Market the businesses services online.
+- Promote the online training academy.
+- Educate dog owners on good training techniques.
+- Create revenue through training and selling of animals.
+
+### **User Goals**
+
+- Find information about dog training.
+- Find information about breeding services.
+- Find links to social media to stay up to date with the community.
+- Contact the business to ask questions.
+
+### **User Stories**
+
+ -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main services offered by Tsellios K9 Academy and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate through the various areas of the website to find content.
         3. As a First Time Visitor, I also want to locate their social media links to see how their brand interacts with customers.
 
-    -   #### Returning Visitor Goals
+
+  -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about K9 training services.
         2. As a Returning Visitor, I want to find the best way to get in contact with Tsellios K9 Academy with any questions I may have.
  
 
-    -   #### Frequent User Goals
+
+ -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added dog training services.
         2. As a Frequent User, I want to check to see if there's any new social media posts or updates.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am notified of major updates and/or changes to the companies website and/or services.
 
--   ### Design
-    -   #### Colour Scheme
-        -   The three main colours used are black, grey, and white. 
-        -   There is also subtle use of the OrangeRed color to draw user attention.
+
+### **Website Functionality**
+
+- User friendly.
+- Responsive.
+- Business overview.
+- Training services.
+- Ability to ask questions by email.
+- Educational videos. 
+
+## **Scope Plane**
+---
+### **Existing Features**
+
+**Home *"Page"*:**
+
+- 
+
+**About Me *"Page"*:**
+
+- 
+
+**Contact Us *"Page"*:**
+
+- 
+
+### **Future Iterations**
+
+
+## **Structure Plane**
+
+### **Website Structure**
+
+### **Planned Structure**
+
+### **Future Additions**
+
+
+## **Skeleton Plane**
+---
+### **Wireframes**
+
+-   Home Page Wireframe - [View](https://github.com/) [Insert path]
+
+<h2 align="center"><img src="assets/images/home-wireframe.png"></h2>
+
+-   About Us Wireframe - [View](https://github.com/) [Insert path]
+
+<h2 align="center"><img src="assets/images/about-wireframe.png"></h2>
+
+-   Contact Us Page Wireframe - [View](https://github.com/) [Insert path]
+
+<h2 align="center"><img src="assets/images/contact-wireframe.png"></h2>
+
+
+## **Surface Plane**    
+---
+### **Typography**
+
+
+-   [Include details about the font you used, and their style].
+
+![Fonts](./assets/images/fonts.png "Fonts")
+
+
+### **Color Scheme**
+
+-   The three main colours used are black, grey, and white. 
+-   There is also subtle use of the OrangeRed color to draw user attention.
         
-          ![Color Palette](./assets/images/colour-palette.png "Color Palette")
-    
-    -   #### Typography
-        -   [Include details about the font you used, and their style].
+![Color Palette](./assets/images/colour-palette.png "Color Palette")
 
 
-        ![Fonts](./assets/images/fonts.png "Fonts")
+### **Media**
 
-    -   #### Media
-        -   The large, background hero video is designed to be catch the potential customers attention. It quickly displays social media links to guide traffic and build a social media following.
+ -   The large, background hero video is designed to be catch the potential customers attention. It quickly displays social media links to guide traffic and build a social media following.
 
-*   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/) [Insert path]
-
-    -   Mobile Wireframe - [View](https://github.com/) [Insert path]
-
-    -   Contact Us Page Wireframe - [View](https://github.com/) [Insert path]
 
 ## Features
 

@@ -533,8 +533,8 @@ a:hover {
 }
 
 .breeding-text {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15%;
+    padding-right: 5%;
 }
 
 .breeding-image {
@@ -706,6 +706,7 @@ input {
 
     .breeding-text {
         padding-bottom: 10px;
+        padding: 0 30px 10px 30px;
     }
 }
 
