@@ -1,8 +1,10 @@
-<h1 align="center"><img src="assets/images/tsellios-logo.png"></h1>
+<h1 align="center">Tsellios K9 Academy</h1>
 
 
 
 <h2 align="center"><img src="assets/images/mockup.jpg"></h2>
+
+<h1 align="center"><img src="assets/images/tsellios-logo.png"></h1>
 
 ### **Project Overview**
 [View the live project here.](https://example.com)
