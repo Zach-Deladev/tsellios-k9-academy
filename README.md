@@ -2,7 +2,7 @@
 
 
 
-<h2 align="center"><img src="https://thumbs.dreamstime.com/b/police-dog-training-attack-man-police-dog-training-99662822.jpg"></h2>
+<h2 align="center"><img src="assets/images/mockup.jpg"></h2>
 
 ### **Project Overview**
 [View the live project here.](https://example.com)
