@@ -6,7 +6,7 @@
 
 <h1 align="center"><img src="assets/images/tsellios-logo.png"></h1>
 
-### **Project Overview**
+## **Project Overview**
 [View the live project here.](https://example.com)
 
 This is the main marketing website for Tsellios K9 Academy. It is designed to be responsive and accessible on both mobile and desktop devices, making it easy to both use and navigate for potential customers.
