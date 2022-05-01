@@ -558,12 +558,21 @@ a:hover {
 .breeding-section {
     background-color: #000;
 
-
 }
 
-.carousel-inner {
-    max-height: 40vh;
+.carousel {
+    height: 65vh;
     width: auto;
+    overflow: hidden;
+    background-color: #000;
+}
+
+@media (min-width: 1120px) {
+    .carousel {
+        width: 60vw;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
 }
 
 /* -----------Breeding page */
