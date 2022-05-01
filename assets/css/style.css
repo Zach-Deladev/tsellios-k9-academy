@@ -580,6 +580,11 @@ a:hover {
     object-fit: cover;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 30px;
+}
+
 @media (max-width: 991px) {
     .carousel-item {
         height: 500px;
