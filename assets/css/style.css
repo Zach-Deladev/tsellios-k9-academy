@@ -3,7 +3,6 @@
 :root {
     --ff-body: "Poppins", sans-serif;
     --ff-heading: "Exo", sans-serif;
-
     --fs-xl: 2.5rem;
     --fs-600: 1.5rem;
     --fs-400: 1rem;
@@ -63,16 +62,9 @@ p {
 }
 
 /* ----------Video background */
-.bg-overlay {
-    position: relative;
-}
 
-.video-container {
-    overflow: hidden;
-}
 
 #vid-bg {
-
     min-width: 100%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -88,7 +80,6 @@ p {
     background: transparent;
     transition: background 0.3s;
     padding: 17px 5px 0 15px;
-
 }
 
 .scrolled #main-nav {
@@ -141,12 +132,10 @@ nav li {
 .contact-link {
     background-color: rgb(255, 69, 0, 0.3);
     text-transform: uppercase;
-
 }
 
 .contact-link:hover {
     background-color: rgb(255, 69, 0, 1);
-    ;
 }
 
 .alert {
@@ -158,8 +147,6 @@ nav li {
     margin: 10px 0;
     padding: 5px 5px;
     display: none;
-
-
 }
 
 .alert-div {
@@ -170,7 +157,6 @@ nav li {
     top: 0;
     z-index: 999;
     padding: 0 5px;
-
 }
 
 .alert a {
@@ -178,8 +164,6 @@ nav li {
     background-color: rgb(134, 39, 4);
     padding: 2px 4px;
     border-radius: 3px;
-
-
 }
 
 .alert a:hover {
@@ -190,14 +174,14 @@ nav li {
 
 #main-container {
     position: relative;
-    overflow: hidden;
 }
 
 #main-container video {
     height: 80vh;
     width: 100%;
-    z-index: 10;
+    z-index: 10000;
     object-fit: cover;
+
 }
 
 #main-container-two {
@@ -256,12 +240,10 @@ nav li {
     text-align: center;
     width: 100%;
     margin: 0;
-
 }
 
 .jumbotron h1 {
     font-size: var(--fs-xl);
-
 }
 
 .jumbotron p {
@@ -284,7 +266,6 @@ nav li {
     bottom: 0;
     width: 100%;
     background-color: #000;
-
 }
 
 #footer-container {
@@ -398,6 +379,10 @@ a:hover {
     color: #000;
     background-color: #fff;
     border: 3px solid orangered;
+}
+
+.socialbtns .youtube .fa:hover {
+    color: red;
 }
 
 .socialbtns h4 {
@@ -660,6 +645,12 @@ input {
 
 }
 
+/* ----------Practice page */
+
+
+
+
+
 /* ----------Media Queires */
 
 /* Nav bar */
@@ -722,7 +713,6 @@ input {
 
 @media (max-width: 768px) {
     .youtube-video {
-        position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
