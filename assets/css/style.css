@@ -413,6 +413,29 @@ a:hover {
     margin-top: 13px;
 }
 
+/* -----------Home page */
+
+.testimonials {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 30px;
+
+}
+
+
+
+.test-card {
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 10px 20px;
+}
+
+@media (max-width: 1200px) {
+    .test-md-off {
+        display: none;
+    }
+}
+
 /* -----------About page */
 
 #about-container {
@@ -546,6 +569,12 @@ a:hover {
     background-color: orangered;
     padding: 3px 5px;
 }
+
+.card-img-top {
+    max-height: 330px;
+
+}
+
 
 /* -----------Breeding page */
 
