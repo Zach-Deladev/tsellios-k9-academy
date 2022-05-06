@@ -18,7 +18,9 @@
     }
 }
 
-@media (max-width: 1100px) {
+
+
+@media (max-width: 1360px) {
     :root {
         --fs-xl: 2rem;
         --fs-l: 1.6rem;
@@ -482,7 +484,7 @@ a:hover {
     padding: 10px 15px;
 }
 
-.about img {
+.about-image img {
     max-height: 400px;
     border: none;
     border-radius: 10px;
@@ -513,6 +515,7 @@ a:hover {
     max-height: 60px;
     border: 2px solid orangered;
     border-radius: 30px;
+
 }
 
 /* -----------Training page */
@@ -680,11 +683,6 @@ input {
 
 }
 
-/* ----------Practice page */
-
-
-
-
 
 /* ----------Media Queires */
 
@@ -781,7 +779,7 @@ input {
 
 /* Breeding section */
 
-@media (max-width: 976px) {
+@media (max-width: 1200px) {
 
     .breeding,
     .about {
@@ -804,6 +802,38 @@ input {
         padding: 0 30px 10px 30px;
     }
 }
+
+/*  Training page */
+
+@media (max-width: 630px) {
+    .about {
+        padding: 5px 0;
+    }
+
+    .about h2 {
+        padding-top: 5px;
+    }
+
+    .about-image img {
+        max-height: 300px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .training-head img {
+        display: none;
+    }
+
+    .training-head h2 {
+        padding: 15px 10px;
+    }
+
+    #about-container-three {
+        display: none;
+    }
+}
+
+
 
 /* Contact page */
 
