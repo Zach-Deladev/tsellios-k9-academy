@@ -470,6 +470,9 @@ a:hover {
 
 }
 
+
+/* -----------Training page */
+
 .about {
     padding-left: 50px;
     padding-top: 15px;
@@ -518,8 +521,6 @@ a:hover {
 
 }
 
-/* -----------Training page */
-
 .card-group {
     background-color: #000;
     padding-top: 0;
@@ -533,10 +534,18 @@ a:hover {
     text-align: center;
 }
 
-.testimonial {
-    padding: 0 20%;
+.card-body a {
+    color: #fff;
+    background-color: rgb(134, 39, 4);
+    border-radius: 3px;
+    padding: 3px 5px;
 }
 
+.card-body a:hover {
+    color: #fff;
+    background-color: orangered;
+    padding: 3px 5px;
+}
 
 /* -----------Breeding page */
 
