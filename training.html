@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a62541e4f3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,6 +54,11 @@
                 </nav>
             </div>
         </section>
+        <div class="alert-div col-12">
+            <div class="alert alert-primary" role="alert">
+                <i>Want to know more? -</i> <a href="/contact.html"><strong>Contact Us</strong></a>
+            </div>
+        </div>
         <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
         <video autoplay loop muted id="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
@@ -62,83 +67,96 @@
             <div class="row ">
                 <div class="jumbotron">
                     <div class="breeding-head col-12">
-                        <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo">Training</h1>
+                        <h1><img src=" /assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> Training</h1>
                     </div>
                 </div>
             </div>
         </section>
     </header>
-    <section class="about-training container-fluid">
-        <div class="row">
-            <div class="card-group">
-                <div class="card">
-                    <img src="/assets/images/dog-training-behavioral.jpg" class="card-img-top"
-                        alt="Behavioral Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Behavioral Training</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/dog-training-obedience.jpg" class="card-img-top"
-                        alt="Obedience Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Obedience Training</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/dog-Training-protection.jpeg" class="card-img-top"
-                        alt="Protection Training image">
-                    <div class="card-body">
-                        <h5 class="card-title">Protection Training</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
 
-                    </div>
-                </div>
-            </div>
+    <div class="about">
+        <div class="training-head">
+            <h2><img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> Obedience / Behavioral
+                training</h2>
+            <p Our journey started over 10 years ago when we started breeding, training, and selling dogs for the Greek
+                police and for dog sport enthusiasts. We then slowly started competing ourselves within the I.G.P. <br>
+                Over the past decade, we have attended countless seminars and presentations from top competitors
+                Including the likes of 6-time world champion Mario Verslype.
+                After relocating to the UK in 2020 we partnered up with two very reputable companies where we
+                have trained over 300 dogs varying in breed and size covering basic obedience training,
+                aggression, anxiety and full rehabilitation.
+
+            </p>
         </div>
-    </section>
+        <div class="about-image">
+            <img src="/assets/images/dog-training-obedience.jpg" alt="Thanasis lead trainer">
+        </div>
+    </div>
 
-    <section id="about-container-two" class="col-12">
+    <section id="about-container-three" class="col-12">
         <video autoplay loop muted id="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-        <div class="container-fluid content">
-            <div class="row ">
-                <div class="jumbotron">
-                    <div id="about-heading" class="col-12">
-                        <div class="training-head col-12">
-
-                            <h1> <img src="/assets/images/tsellios-logo-wh-sm.png" alt="Dog logo">
-                                Coming soon...</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
-    <div class="breeding">
-        <div class="breeding-text">
-            <h4>Tsellios Online Academy!</h4>
-            <p><br> This is a wider card with supporting text below as a natural lead-in to
-                additional content.
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content.
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content.
+
+    <div class="about">
+        <div class="training-head">
+            <h2><img src=" /assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> Protection / Security training</h2>
+            <p>Our journey started over 10 years ago when we started breeding, training, and selling dogs
+                for
+                the Greek police and for dog sport enthusiasts. We then slowly started competing ourselves
+                within the I.G.P.
+                <br>
+                Over the past decade, we have attended countless seminars and presentations from top competitors
+                Including the likes of 6-time world champion Mario Verslype.
+                After relocating to the UK in 2020 we partnered up with two very reputable companies where we
+                have trained over 300 dogs varying in breed and size covering basic obedience training,
+                aggression, anxiety and full rehabilitation.
             </p>
         </div>
-        <div class="breeding-image">
-            <img src="/assets/images/youtube-logo.jpeg" alt="Youtube Logo">
+        <div class="about-image">
+            <img src="/assets/images/dog-Training-protection.jpeg" alt="Thanasis lead trainer">
         </div>
     </div>
+
+    <!-- Iframe https://www.w3schools.com/howto/howto_css_responsive_iframes.asp -->
+    <section class="yt-cont">
+        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/cR23dh1iAc0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="about-container-three" class="col-12">
+        <video autoplay loop muted id="vid-bg">
+            <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
+        </video>
+    </section>
+
+    <div class="about">
+        <div class="training-head">
+            <h2><img src=" /assets/images/tsellios-logo-wh-sm.png" alt="Dog logo"> COMING SOON - Tsellios Online
+                Academy!</h2>
+            <p><br> Our journey started over 10 years ago when we started breeding, training, and selling dogs
+                for
+                the Greek police and for dog sport enthusiasts. We then slowly started competing ourselves
+                within the I.G.P.
+                <br><br>
+
+            </p>
+        </div>
+        <div class="about-image">
+            <a href="https://www.youtube.com/" target="_blank"><img src="/assets/images/YT-subscribe-button.jpg"
+                    alt="Thanasis lead trainer"></a>
+
+        </div>
     </div>
+
+    <section id="about-container-three" class="col-12">
+        <video autoplay loop muted id="vid-bg">
+            <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
+        </video>
     </section>
 
     <!-- Footer -->
