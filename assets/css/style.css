@@ -416,14 +416,20 @@ a:hover {
 /* -----------Home page */
 
 .testimonials {
-    background-color: rgb(134, 39, 4);
-    padding: 30px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 60px;
     position: relative;
 
 }
 
+@media (min-width: 760px) {
+    .testimonials {
+        padding: 10px;
+    }
+}
+
 .test-card {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(134, 39, 4, 0.8);
     max-width: 350px;
     margin: 10px 20px;
 
@@ -442,6 +448,33 @@ a:hover {
 
 
 }
+
+.content-body {
+    position: relative;
+    text-align: center;
+    padding: 60px 10px 30px 10px;
+}
+
+.content-body .fa {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size: 40px;
+    background-color: #000;
+    border: 3px solid orangered;
+    padding-top: 19px;
+    padding-left: 1px;
+    border-radius: 45px;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+
 
 @media (max-width: 1200px) {
     .test-md-off {
@@ -507,17 +540,17 @@ a:hover {
 }
 
 .about-card-cont {
-    background-color: rgb(134, 39, 4);
+    background-color: rgba(0, 0, 0, 1);
     padding: 30px;
 
 
 }
 
 .about-card {
-    background-color: rgba(0, 0, 0, 0.9);
-    max-width: 450px;
+    background-color: rgba(134, 39, 4, 0.5);
+    max-width: 550px;
     max-height: auto;
-    margin: 10px 20px;
+    margin: 10px auto;
 
 }
 
@@ -529,28 +562,51 @@ a:hover {
     overflow: hidden;
 }
 
+
+
 .about-card-title h4 {
-    padding: 5px 0;
-
-
+    padding: 10px 0 5px 0;
 }
 
-.about-body {
-    padding-bottom: 10px;
+.about-card-icon {
+    position: relative;
 }
 
-.about-body a {
+.about-card-icon p {
+    padding-bottom: 50px;
+}
+
+
+.about-card-icon .fa {
+    position: absolute;
+    bottom: -78px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
     color: #fff;
-    background-color: rgb(134, 39, 4);
-    border-radius: 3px;
-    padding: 3px 5px;
+    font-size: 40px;
+    background-color: #000;
+    border: 3px solid orangered;
+    padding-top: 19px;
+    padding-left: 1px;
+    border-radius: 45px;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -o-border-radius: 45px;
 }
 
-.about-body a:hover {
-    color: #fff;
-    background-color: orangered;
-    padding: 3px 5px;
+.about-card-icon .fa:hover {
+    color: #000;
+    background-color: #fff;
+    border: 3px solid orangered;
+
+
 }
+
+
+
+
 
 @media (max-width: 1520px) {
     .about-md-off {
