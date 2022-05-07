@@ -192,7 +192,7 @@ nav li {
 }
 
 #main-container video {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     z-index: 10000;
     object-fit: cover;
@@ -416,18 +416,31 @@ a:hover {
 /* -----------Home page */
 
 .testimonials {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(134, 39, 4);
     padding: 30px;
+    position: relative;
 
 }
 
-
-
 .test-card {
-    background-color: rgb(128, 128, 128, 0.5);
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
     max-width: 350px;
     margin: 10px 20px;
+
+}
+
+.test-card img {
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.test-name h4 {
+    padding: 3px 6px;
+
+
 }
 
 @media (max-width: 1200px) {
@@ -493,6 +506,57 @@ a:hover {
 
 }
 
+.about-card-cont {
+    background-color: rgb(134, 39, 4);
+    padding: 30px;
+
+
+}
+
+.about-card {
+    background-color: rgba(0, 0, 0, 0.9);
+    max-width: 450px;
+    max-height: auto;
+    margin: 10px 20px;
+
+}
+
+.about-card img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.about-card-title h4 {
+    padding: 5px 0;
+
+
+}
+
+.about-body {
+    padding-bottom: 10px;
+}
+
+.about-body a {
+    color: #fff;
+    background-color: rgb(134, 39, 4);
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.about-body a:hover {
+    color: #fff;
+    background-color: orangered;
+    padding: 3px 5px;
+}
+
+@media (max-width: 1520px) {
+    .about-md-off {
+        display: none;
+    }
+}
 
 /* -----------Training page */
 
@@ -544,36 +608,6 @@ a:hover {
 
 }
 
-.card-group {
-    background-color: #000;
-    padding-top: 0;
-
-}
-
-.card {
-    line-height: 1.5;
-    background-color: black;
-    margin: 30px;
-    text-align: center;
-}
-
-.card-body a {
-    color: #fff;
-    background-color: rgb(134, 39, 4);
-    border-radius: 3px;
-    padding: 3px 5px;
-}
-
-.card-body a:hover {
-    color: #fff;
-    background-color: orangered;
-    padding: 3px 5px;
-}
-
-.card-img-top {
-    max-height: 330px;
-
-}
 
 
 /* -----------Breeding page */
