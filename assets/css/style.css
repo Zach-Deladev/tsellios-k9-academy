@@ -107,7 +107,6 @@ p {
 }
 
 .navbar {
-
     display: flex;
     position: fixed;
 }
@@ -196,7 +195,6 @@ nav li {
     width: 100%;
     z-index: 10000;
     object-fit: cover;
-
 }
 
 #main-container-two {
@@ -356,7 +354,6 @@ a:hover {
 
 .socialbtns {
     text-align: center;
-
 }
 
 .socialbtns p {
@@ -413,26 +410,18 @@ a:hover {
     margin-top: 13px;
 }
 
-/* -----------Home page */
+/* ----------- index.html */
 
 .testimonials {
     background-color: rgba(0, 0, 0, 1);
     padding: 60px;
     position: relative;
-
-}
-
-@media (min-width: 760px) {
-    .testimonials {
-        padding: 10px;
-    }
 }
 
 .test-card {
     background-color: rgba(134, 39, 4, 0.8);
     max-width: 350px;
     margin: 10px 20px;
-
 }
 
 .test-card img {
@@ -445,8 +434,6 @@ a:hover {
 
 .test-name h4 {
     padding: 3px 6px;
-
-
 }
 
 .content-body {
@@ -474,15 +461,7 @@ a:hover {
     -o-border-radius: 45px;
 }
 
-
-
-@media (max-width: 1200px) {
-    .test-md-off {
-        display: none;
-    }
-}
-
-/* -----------About page */
+/* -----------about.html */
 
 #about-container {
     position: relative;
@@ -536,14 +515,11 @@ a:hover {
     max-height: 60px;
     border: 2px solid orangered;
     border-radius: 30px;
-
 }
 
 .about-card-cont {
     background-color: rgba(0, 0, 0, 1);
     padding: 30px;
-
-
 }
 
 .about-card {
@@ -551,18 +527,14 @@ a:hover {
     max-width: 550px;
     max-height: auto;
     margin: 10px auto;
-
 }
 
 .about-card img {
     height: auto;
     width: 100%;
     margin: 0 auto;
-
     overflow: hidden;
 }
-
-
 
 .about-card-title h4 {
     padding: 10px 0 5px 0;
@@ -575,7 +547,6 @@ a:hover {
 .about-card-icon p {
     padding-bottom: 50px;
 }
-
 
 .about-card-icon .fa {
     position: absolute;
@@ -600,21 +571,9 @@ a:hover {
     color: #000;
     background-color: #fff;
     border: 3px solid orangered;
-
-
 }
 
-
-
-
-
-@media (max-width: 1520px) {
-    .about-md-off {
-        display: none;
-    }
-}
-
-/* -----------Training page */
+/* -----------training.html */
 
 .about {
     padding-left: 50px;
@@ -666,7 +625,7 @@ a:hover {
 
 
 
-/* -----------Breeding page */
+/* -----------breeding.html */
 
 .breeding-head {
     background-color: rgba(0, 0, 0, 0);
@@ -717,50 +676,7 @@ a:hover {
     padding: 20px 30px;
 }
 
-.carousel {
-    padding: 0;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: #000;
-
-}
-
-.carousel-item {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-}
-
-@media (max-width: 991px) {
-    .carousel-item {
-        height: 500px;
-    }
-}
-
-@media (min-width: 992px) {
-    .carousel-item {
-        height: 600px;
-    }
-}
-
-@media (max-width: 650px) {
-    .carousel-item {
-        height: 400px;
-    }
-}
-
-
-/* ----------Contact page */
+/* ---------- contact.html */
 
 #contact-container {
     position: relative;
@@ -883,7 +799,7 @@ input {
     }
 }
 
-/* About heading  */
+/* Headings  */
 
 @media (min-width: 810px) {
     .jumbotron h1 {
@@ -905,7 +821,7 @@ input {
     }
 }
 
-/* Breeding section */
+/* Text containers */
 
 @media (max-width: 1200px) {
 
@@ -930,6 +846,26 @@ input {
         padding: 0 30px 10px 30px;
     }
 }
+
+
+/* Index.html */
+
+
+@media (min-width: 760px) {
+    .testimonials {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .test-md-off {
+        display: none;
+    }
+}
+
+/* about.html */
+
+
 
 /*  Training page */
 
