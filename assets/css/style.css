@@ -1,8 +1,8 @@
 /* ----------Font sizing */
 
 :root {
-    --ff-body: "Poppins", sans-serif;
-    --ff-heading: "Exo", sans-serif;
+    --ff-body: "Exo", sans-serif;
+    --ff-heading: "Abril Fatface", sans-serif;
     --fs-xl: 2.5rem;
     --fs-l: 2rem;
     --fs-600: 1.5rem;
@@ -115,6 +115,14 @@ p {
     border: none;
 }
 
+.nav-link {
+    padding: 8px 5px 5px 5px;
+}
+
+.navbar-nav li a {
+    font-family: poppins;
+}
+
 .nav-container {
     position: relative;
     top: 0;
@@ -125,7 +133,7 @@ p {
 }
 
 .nav-container img {
-    width: 250px;
+    width: 60px;
     height: auto;
 }
 
@@ -472,10 +480,10 @@ a:hover {
 }
 
 .thanasis-about {
-    background-image: url("/assets/images/thanasis-about-bg.jpg");
+    background-image: url("/assets/images/than-erin-bg.jpg");
     background-size: cover;
     position: relative;
-    height: 80vh;
+    height: 60vh;
 }
 
 .thanasis-about:before {
@@ -485,7 +493,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, 0);
 }
 
 .team-card {
@@ -917,7 +925,13 @@ input {
 
 /* about.html */
 
-
+@media (max-width:810px) {
+    .thanasis-about {
+        background-image: url("/assets/images/than-erin-sm-bg.jpg");
+        background-size: cover;
+        height: 40vh;
+    }
+}
 
 /*  Training page */
 
