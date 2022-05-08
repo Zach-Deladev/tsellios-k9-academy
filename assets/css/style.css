@@ -267,10 +267,7 @@ nav li {
     padding-top: 5px;
 }
 
-.jumbotron img {
-    max-height: 175px;
-    width: auto;
-}
+
 
 /* ----------Footer */
 
@@ -452,7 +449,7 @@ a:hover {
     color: #fff;
     font-size: 40px;
     background-color: #000;
-    border: 3px solid orangered;
+    border: 3px solid #fff;
     padding-top: 19px;
     padding-left: 1px;
     border-radius: 45px;
@@ -468,6 +465,62 @@ a:hover {
     overflow: hidden;
     padding: 0;
 }
+
+.about-us-team {
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.thanasis-about {
+    background-image: url("/assets/images/thanasis-about-bg.jpg");
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+
+.thanasis-about:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .1);
+}
+
+.team-card {
+    display: flex;
+    height: 200px;
+    width: 550px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgba(134, 39, 4, 0.3);
+    margin: 10px;
+
+
+}
+
+.team-card img {
+    height: 200px;
+    width: auto;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.team-card-text {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+.team-image {
+    align-self: flex-end;
+}
+
+
+
 
 #about-container video {
     height: 60vh;
@@ -524,7 +577,7 @@ a:hover {
 
 .about-card {
     background-color: rgba(134, 39, 4, 0.5);
-    max-width: 550px;
+    max-width: 500px;
     max-height: auto;
     margin: 10px auto;
 }
@@ -550,17 +603,16 @@ a:hover {
 
 .about-card-icon .fa {
     position: absolute;
-    bottom: -78px;
+    bottom: -58px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     background-color: #000;
     border: 3px solid orangered;
-    padding-top: 19px;
-    padding-left: 1px;
+    padding-top: 12px;
     border-radius: 45px;
     -moz-border-radius: 45px;
     -webkit-border-radius: 45px;
