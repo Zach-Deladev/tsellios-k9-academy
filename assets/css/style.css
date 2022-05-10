@@ -5,7 +5,7 @@
     --ff-heading: "Abril Fatface", sans-serif;
     --fs-xl: 2.5rem;
     --fs-l: 2rem;
-    --fs-600: 1.5rem;
+    --fs-600: 1.25rem;
     --fs-400: 1rem;
 }
 
@@ -13,7 +13,7 @@
     :root {
         --fs-xl: 2.5rem;
         --fs-l: 2rem;
-        --fs-600: 1.5rem;
+        --fs-600: 1.25rem;
         --fs-400: 1rem;
     }
 }
@@ -32,6 +32,7 @@
 @media (max-width: 530px) {
     :root {
         --fs-l: 1.2rem;
+        --fs-600: .8rem;
     }
 }
 
@@ -432,7 +433,6 @@ a:hover {
 .test-card img {
     width: 150px;
     height: 150px;
-
     border-radius: 50%;
     overflow: hidden;
 }
@@ -485,33 +485,6 @@ a:hover {
 
 }
 
-.thanasis-about {
-    background-image: url("/assets/images/than-erin-bg.jpg");
-    background-size: cover;
-    position: relative;
-    height: 70vh;
-}
-
-.thanasis-about:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0);
-}
-
-.breeding-about {
-    background-image: url("/assets/images/Breeding-about.jpg");
-    background-size: cover;
-    position: relative;
-    height: 50vh;
-}
-
-
-
-
 #about-container video {
     height: 60vh;
     width: 100%;
@@ -560,13 +533,34 @@ a:hover {
     border-radius: 30px;
 }
 
+.about .about-image {
+    text-align: center;
+}
 
+.about-btn {
+    text-align: center;
+
+}
+
+.about-btn a {
+    color: #fff;
+    background-color: orangered;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+
+.about-btn a:hover {
+    color: #fff;
+    background-color: rgb(134, 39, 4);
+    padding: 3px 4px;
+    border-radius: 3px;
+}
 
 /* -----------training.html */
 
 .about {
     padding-left: 50px;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 30px;
     background-color: black;
     align-items: center;
@@ -579,15 +573,19 @@ a:hover {
 }
 
 .about-image img {
-    max-height: 400px;
+    max-height: 300px;
     width: auto;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
 .about-image {
     flex-wrap: wrap;
     padding: 15px 70px 15px 0;
 
+}
+
+.about-image h4 {
+    padding-top: 10px;
 }
 
 .about-training {
@@ -602,6 +600,7 @@ a:hover {
 
 .training-head {
     background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 30px;
 
 }
 
@@ -665,6 +664,11 @@ a:hover {
     padding: 20px 30px;
 }
 
+
+.breeding-gallery {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 1);
+}
 
 
 /* ---------- contact.html */
@@ -819,8 +823,8 @@ input {
     .breeding,
     .about {
         flex-direction: column;
-        text-align: center;
-        padding: 20px 5px;
+        text-align: left;
+        padding: 20px 10px;
     }
 
     .about p {
@@ -868,7 +872,7 @@ input {
 
 @media (max-width: 630px) {
     .about {
-        padding: 5px 0;
+        padding: 5px 10px;
     }
 
     .about h2 {
@@ -878,27 +882,21 @@ input {
     .about-image img {
         max-height: 300px;
         border: none;
-        border-radius: 8px;
-    }
 
-    .training-head img {
-        display: none;
     }
 
     .training-head h2 {
         padding: 15px 10px;
     }
 
-    #about-container-three {
-        display: none;
-    }
+
 }
 
 /* Breeding.html */
 
 @media (max-width: 1200px) {
     .about .training-head .breeding-ul {
-        padding: 0;
+        padding: 20px;
     }
 }
 
