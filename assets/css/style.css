@@ -559,9 +559,7 @@ a:hover {
 /* -----------training.html */
 
 .about {
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px !important;
     background-color: black;
     align-items: center;
     display: flex;
@@ -580,7 +578,7 @@ a:hover {
 
 .about-image {
     flex-wrap: wrap;
-    padding: 15px 70px 15px 0;
+    padding: 15px;
 
 }
 
