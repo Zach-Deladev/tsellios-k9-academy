@@ -8,19 +8,29 @@
     <title>Tsellios K9 Academy</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Boostrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a62541e4f3.js" crossorigin="anonymous"></script>
+
+    <!-- fancybox styles inspired by Guido my mentor https://guidocecilio.github.io/ci-m1-bootstrap-template/-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <!-- Nav Bar styling -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo&family=Poppins:wght@500&display=swap"
         rel="stylesheet">
+
+    <!-- Customer styling for this site -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
-
-
-
 
 <body class="pages">
     <header id="main-container-two">
@@ -63,6 +73,8 @@
             </div>
         </div>
     </header>
+
+    <!-- Page Title -->
     <div class="page-title">
         <div class="container-fluid content">
             <div class="row ">
@@ -75,6 +87,7 @@
         </div>
     </div>
 
+    <!-- Page -->
     <div class="about">
         <div id="breeding-litter" class="about-image">
             <img src="/assets/images/pup-litter-sq.jpeg" alt="Erin's new puppy litter">
@@ -108,17 +121,29 @@
     <div class="breeding-gallery container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
-                <img src="/assets/images/puppy.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Puppy image" />
-                <img src="/assets/images/breeding/pup-work.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Puppy in van" />
+
+                <a href="#" data-fancybox="demo" data-src="/assets/images/puppy.jpeg">
+                    <img src="/assets/images/puppy.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Puppy image" /></a>
+
+                <a href="#" data-fancybox="demo" data-src="/assets/images/breeding/pup-work.jpeg">
+                    <img src="/assets/images/breeding/pup-work.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Puppy in van" /></a>
+
+
             </div>
 
-            <div class="col-lg-4 col-md-4">
-                <img src="/assets/images/breeding/georgia-pup.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Georgia and puppy" />
 
-                <img src="/assets/images/breeding/pup-four.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Puppy image" />
+
+            <div class="col-lg-4 col-md-4">
+
+                <a href="#" data-fancybox="demo" data-src="/assets/images/breeding/georgia-pup.jpeg">
+                    <img src="/assets/images/breeding/georgia-pup.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Georgia and puppy" /></a>
+
+                <a href="#" data-fancybox="demo" data-src="/assets/images/breeding/pup-four.jpeg">
+                    <img src="/assets/images/breeding/pup-four.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Puppy image" /></a>
 
                 <div class="socialbtns gallery-social social-contact">
                     <ul>
@@ -145,11 +170,13 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="/assets/images/pup-bg-two.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Puppy in the city" />
+                <a href="#" data-fancybox="demo" data-src="/assets/images/pup-bg-two.jpeg">
+                    <img src="/assets/images/pup-bg-two.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Puppy in the city" /></a>
 
-                <img src="/assets/images/pup-bg.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Puppy on the pier" />
+                <a href="#" data-fancybox="demo" data-src="/assets/images/pup-bg.jpeg">
+                    <img src="/assets/images/pup-bg.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Puppy on the pier" /> </a>
             </div>
         </div>
     </div>
@@ -190,6 +217,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+
+    <!-- Fancy box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
     <!-- Nav bar change color on scroll code reference: https://jsfiddle.net/RichardD/up15a9vb/ -->
     <script>
         $(function () {
@@ -198,6 +229,7 @@
             })
         });
     </script>
+
 </body>
 
 </html>
