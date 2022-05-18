@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -24,7 +24,7 @@
 
 <body>
     <header id="main-container-two">
-        <section>
+        <div>
             <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
             <div id="navbar-container" class="container-fluid nav-container ">
                 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -56,14 +56,14 @@
                     </div>
                 </nav>
             </div>
-        </section>
+        </div>
         <div class="alert-div col-12">
             <div class="alert alert-primary" role="alert">
                 <i>Want to know more? -</i> <a href="/contact.html"><strong>Contact Us</strong></a>
             </div>
         </div>
         <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
-        <video autoplay loop muted id="vid-bg">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
         <div class="container-fluid content">
@@ -79,7 +79,7 @@
         </div>
     </header>
 
-    <section class="about-training container-fluid">
+    <div class="about-training container-fluid">
         <div class="row">
             <div class="about">
                 <div class="about-image ">
@@ -113,10 +113,10 @@
 
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="about-container-two" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div id="about-container-two" class="col-12">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
         <div class="container-fluid content">
@@ -130,9 +130,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="about-training container-fluid">
+    <div class="about-training container-fluid">
         <div class="row">
             <div class="about what-we-do col-12 col-md-6">
                 <div class="about-image">
@@ -165,13 +165,13 @@
 
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="about-container-three" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div class="col-12 about-container-three">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -203,7 +203,6 @@
                     </div>
                     <br>
                     <div class="socialbtns social-contact">
-                        <h4><strong>Quick Links:</strong></h4>
                         <ul class="list-unstyled">
                             <li class="quick-links"> <a href="/index.html">Home</a></li>
                             <li class="quick-links"> <a href="/about.html">About</a></li>

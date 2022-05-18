@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 
 <head>
@@ -22,7 +22,7 @@
 
 <body>
     <header id="main-container">
-        <section>
+        <div>
             <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
             <div id="navbar-container" class="container-fluid nav-container">
                 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -59,9 +59,9 @@
                     <i>Want to know more? - </i><a href="/contact.html"><strong>Contact Us</strong></a>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
-        <video autoplay loop muted id="vid-bg">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
         <div class="container-fluid content">
@@ -100,18 +100,18 @@
         </div>
     </header>
 
-    <section class="yt-cont">
+    <div class="yt-cont">
         <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/kiEZO3KaE3U"
-            title="YouTube video player" frameborder="0"
+            title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-    </section>
+    </div>
 
-    <section class="testimonials container-fluid">
+    <div class="testimonials container-fluid">
         <div class="row justify-content-center">
             <div class="test-card">
                 <div class="content-body">
-                    <h1><i class="fa fa-quote-left"></i></h1>
+                    <i class="fa fa-quote-left"></i>
                     <p>
                         " I would confidently recommend Thanasis Tsellios as a very reputable breeder. The service was
                         very personal and professional. Right from the start full checks carried out to see if I was
@@ -120,7 +120,7 @@
                         provided up
                         front of both parents." </p>
                     <div class="test-image">
-                        <img src="/assets/images/natalia-image.jpg">
+                        <img src="/assets/images/natalia-image.jpg" alt="Natalia Lavrova quote">
                     </div>
                     <div class="test-name">
                         <h4>Natalia Lavrova<br></h4>
@@ -129,7 +129,7 @@
             </div>
             <div class="test-card">
                 <div class="content-body">
-                    <h1><i class="fa fa-quote-left"></i></h1>
+                    <i class="fa fa-quote-left"></i>
                     <p>
                         " Thanasis is the best trainer I've worked with. He's deeply devoted to dogs, specialising in
                         high
@@ -137,7 +137,7 @@
                         develop more speed and power in my shepherds obedience by teaching me how to motivate the dog
                         through better play. I wouldn't hesitate to recommend him to others."</p>
                     <div class="test-image">
-                        <img src="/assets/images/chris-image.jpg">
+                        <img src="/assets/images/chris-image.jpg" alt="Chris Westgate quote">
                     </div>
                     <div class="test-name justify-content-centers">
                         <h4>Chris Westagte<br></h4>
@@ -146,7 +146,7 @@
             </div>
             <div class="test-card test-md-off">
                 <div class="content-body">
-                    <h1><i class="fa fa-quote-left"></i></h1>
+                    <i class="fa fa-quote-left"></i>
                     <p>
                         " Thanasis did an incredible job with our German Shepherd Rafferty who was very reactive
                         to
@@ -157,7 +157,7 @@
                         stress."
                     </p>
                     <div class="test-image">
-                        <img src="/assets/images/andrew-image.jpg">
+                        <img src="/assets/images/andrew-image.jpg" alt="Andrew Porter quote">
                     </div>
                     <div class="test-name">
                         <h4>Andrew Porter</h4>
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -197,7 +197,6 @@
                     </div>
                     <br>
                     <div class="socialbtns social-contact">
-                        <h4><strong>Quick Links:</strong></h4>
                         <ul class="list-unstyled">
                             <li class="quick-links"> <a href="/index.html">Home</a></li>
                             <li class="quick-links"> <a href="/about.html">About</a></li>

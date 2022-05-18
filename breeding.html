@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 
 <head>
@@ -22,7 +22,7 @@
 
 <body>
     <header id="main-container-two">
-        <section>
+        <div>
             <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
             <div id="navbar-container" class="container-fluid nav-container ">
                 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -54,17 +54,17 @@
                     </div>
                 </nav>
             </div>
-        </section>
+        </div>
         <div class="alert-div col-12">
             <div class="alert alert-primary" role="alert">
                 <i>Want to know more? -</i> <a href="/contact.html"><strong>Contact Us</strong></a>
             </div>
         </div>
         <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
-        <video autoplay loop muted id="vid-bg">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-        <section class="container-fluid content">
+        <div class="container-fluid content">
             <div class="row ">
                 <div class="jumbotron">
                     <div class="breeding-head col-12">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </header>
 
     <div class="about">
@@ -88,35 +88,33 @@
 
                 When it comes to raising our puppies we ensure they are fully prepared for life with their new owners,
                 all animals will come with the following:
-                <ul class="breeding-ul">
-                    <li>KC Registered</li>
-                    <li>3rd Generation pedigree</li>
-                    <li>Fully vacinated</li>
-                    <li>Dewormed</li>
-                    <li>Crate and litter trained</li>
-                    <li>Full health check before leaving us</li>
-                </ul>
-                <br>
-            </p>
-        </div>
 
+            </p>
+            <ul class="breeding-ul">
+                <li>KC Registered</li>
+                <li>3rd Generation pedigree</li>
+                <li>Fully vacinated</li>
+                <li>Dewormed</li>
+                <li>Crate and litter trained</li>
+                <li>Full health check before leaving us</li>
+            </ul>
+            <br>
+        </div>
     </div>
 
-    <section id="about-container-three" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div class="col-12 about-container-three">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-    </section>
+    </div>
 
     <!-- Gallery basic code from https://mdbootstrap.com/docs/standard/extended/gallery/ -->
     <div class="breeding-gallery container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
                 <img src="/assets/images/puppy.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Puppy image" />
-
                 <img src="/assets/images/breeding/pup-work.jpeg" class="w-100 shadow-1-strong rounded mb-4"
                     alt="Puppy in van" />
-
             </div>
 
             <div class="col-lg-4 col-md-4">
@@ -150,7 +148,6 @@
                     <p class="jumbo-small"> <em>Follow us on Instagram, Youtube and TikTok!</em> </p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-4">
                 <img src="/assets/images/pup-bg-two.jpeg" class="w-100 shadow-1-strong rounded mb-4"
                     alt="Puppy in the city" />
@@ -162,10 +159,10 @@
     </div>
 
     <section id="main-container" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-        <section class="container-fluid content">
+        <div class="container-fluid content">
             <div class="row ">
                 <div class="jumbotron">
                     <div class="breeding-head col-12">
@@ -187,8 +184,7 @@
                                             placeholder="Enter your query here" required></textarea>
                                         <div class="form-row text-center">
                                             <div class="col">
-                                                <input type="submit" value="Send Message"
-                                                    class="btn contact-btn"></input>
+                                                <input type="submit" value="Send Message" class="btn contact-btn" />
                                             </div>
                                         </div>
                                     </form>
@@ -198,9 +194,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -232,7 +227,6 @@
                     </div>
                     <br>
                     <div class="socialbtns social-contact">
-                        <h4><strong>Quick Links:</strong></h4>
                         <ul class="list-unstyled">
                             <li class="quick-links"> <a href="/index.html">Home</a></li>
                             <li class="quick-links"> <a href="/about.html">About</a></li>

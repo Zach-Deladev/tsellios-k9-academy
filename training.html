@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 
 <head>
@@ -22,7 +22,7 @@
 
 <body>
     <header id="main-container-two">
-        <section>
+        <div>
             <!-- Nav Bar basic code structure inspired by Whiskey drop mini project -->
             <div id="navbar-container" class="container-fluid nav-container ">
                 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -54,7 +54,7 @@
                     </div>
                 </nav>
             </div>
-        </section>
+        </div>
         <div class="alert-div col-12">
             <div class="alert alert-primary" role="alert">
                 <i>Want to know more? -</i> <a href="/contact.html"><strong>Contact Us</strong></a>
@@ -62,10 +62,10 @@
         </div>
 
         <!-- Background video tag from link https://www.w3schools.com/html/html5_video.asp -->
-        <video autoplay loop muted id="vid-bg">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-        <section class="container-fluid content">
+        <div class="container-fluid content">
             <div class="row ">
                 <div class="jumbotron">
                     <div class="breeding-head col-12">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </header>
 
 
@@ -96,13 +96,9 @@
                         After relocating to the UK in 2020 we partnered up with two very reputable companies where we
                         have trained over 300 dogs varying in breed and size covering basic obedience training,
                         aggression, anxiety and full rehabilitation. <br><br>
-
                         Whatever your training needs Tsellios K9 academy has you covered... <br><br>
                     </p>
-
-                    <h4>Obedience and
-                        Behavioral training modules:</h4>
-
+                    <h4>Obedience and Behavioral training modules:</h4>
                     <ul>
                         <li>Psychology: A foundation for Modern Training</li>
                         <li>Learning: The Acquisition of Knowledge</li>
@@ -119,18 +115,23 @@
                         <li>Problematic behaviour</li>
                         <li>Training tools and equipment</li>
                     </ul>
-
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section id="about-container-three" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div class="yt-cont">
+        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/kiEZO3KaE3U"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="col-12 about-container-three">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-    </section>
+    </div>
 
     <div class="about">
         <div class="about-image">
@@ -144,57 +145,50 @@
                 decoy and NASDU instructor. <br>
                 Our training course awards a NASDU level 2 qualification upon completion and covers the folliwing units:
                 <br><br>
-                <h4>Unit 01 Roles and Responsibilities of a Security Dog Handler</h4>
-                <ul>
-                    <li>Underpinning Knowledge</li>
-                    <li>Selection</li>
-                </ul>
-
-                <h4>Unit 02 Control of a Security Dog</h4>
-
-                <ul>
-                    <li>Basic Control</li>
-                    <li>Emergency Stop</li>
-                    <li>Speak on Command</li>
-                    <li>Steadiness to Noise</li>
-                </ul>
-
-                <h4>Unit 03 Controlling a General Purpose Security Dog</h4>
-
-                <ul>
-                    <li>Patrol – Internal/External</li>
-                    <li>Handler Protection – Weapon Attack/Arrest</li>
-                    <li>Search – Property/Persons</li>
-                    <li>Entry Control</li>
-                </ul>
-
-                <h4>Unit 04 Health, Well-being and Safety of a Security Dog</h4>
-                <ul>
-                    <li>Inspection and Grooming</li>
-                    <li>Transportation</li>
-                    <li>H & S Assessment</li>
-                </ul>
-
 
             </p>
+            <h4>Unit 01 Roles and Responsibilities of a Security Dog Handler</h4>
+            <ul>
+                <li>Underpinning Knowledge</li>
+                <li>Selection</li>
+            </ul>
+            <h4>Unit 02 Control of a Security Dog</h4>
+            <ul>
+                <li>Basic Control</li>
+                <li>Emergency Stop</li>
+                <li>Speak on Command</li>
+                <li>Steadiness to Noise</li>
+            </ul>
+            <h4>Unit 03 Controlling a General Purpose Security Dog</h4>
+            <ul>
+                <li>Patrol – Internal/External</li>
+                <li>Handler Protection – Weapon Attack/Arrest</li>
+                <li>Search – Property/Persons</li>
+                <li>Entry Control</li>
+            </ul>
+            <h4>Unit 04 Health, Well-being and Safety of a Security Dog</h4>
+            <ul>
+                <li>Inspection and Grooming</li>
+                <li>Transportation</li>
+                <li>H & S Assessment</li>
+            </ul>
         </div>
-
     </div>
 
     <!-- Iframe https://www.w3schools.com/howto/howto_css_responsive_iframes.asp -->
-    <section class="yt-cont">
+    <div class="yt-cont">
         <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/cR23dh1iAc0"
-            title="YouTube video player" frameborder="0"
+            title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
-    </section>
+    </div>
 
-    <section id="about-container-three" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div class="col-12 about-container-three">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-    </section>
+    </div>
 
     <div class="about">
         <div class="about-image">
@@ -215,11 +209,11 @@
 
     </div>
 
-    <section id="about-container-three" class="col-12">
-        <video autoplay loop muted id="vid-bg">
+    <div class="col-12 about-container-three">
+        <video autoplay loop muted class="vid-bg">
             <source src="/assets/media/dog-training-bg-dark.mp4" type="video/mp4" />
         </video>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -251,7 +245,6 @@
                     </div>
                     <br>
                     <div class="socialbtns social-contact">
-                        <h4><strong>Quick Links:</strong></h4>
                         <ul class="list-unstyled">
                             <li class="quick-links"> <a href="/index.html">Home</a></li>
                             <li class="quick-links"> <a href="/about.html">About</a></li>
