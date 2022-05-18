@@ -75,6 +75,35 @@ p {
     font-size: var(--fs-400);
 }
 
+.pages {
+    background: url("/assets/images/thanasis-pages-bg.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.page-title {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title h1,
+.page-space h1 {
+    font-size: var(--fs-xl);
+}
+
+.page-space {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ----------Video background */
 
 .vid-bg {
@@ -598,7 +627,6 @@ a:hover {
 
 .about-training {
     background-color: black;
-
 }
 
 .about-training h1 {
@@ -794,8 +822,14 @@ input {
 /* Headings  */
 
 @media (min-width: 810px) {
+
+    .page-title h1,
     .jumbotron h1 {
         font-size: 4rem;
+    }
+
+    .page-space h1 {
+        font-size: 3rem;
     }
 
     .jumbotron h4 {
@@ -804,6 +838,9 @@ input {
 }
 
 @media (max-width: 430px) {
+
+    .page-title h1,
+    .page-space h1,
     .jumbotron h1 {
         font-size: 1.5rem;
     }
