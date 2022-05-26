@@ -104,6 +104,21 @@ p {
     justify-content: center;
 }
 
+.box-highlight {
+    padding: 25px;
+    background-color: rgba(134, 39, 4, 0.8);
+    display: block;
+    flex-wrap: wrap;
+    width: 550px;
+}
+
+.box-highlight ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+
+
 /* ----------Video background */
 
 .vid-bg {
@@ -259,12 +274,19 @@ nav li {
     padding: 0;
 }
 
-.yt-cont {
+.yt-cont-index {
     position: relative;
     overflow: hidden;
     width: auto;
     padding-top: 56.25%;
     background-color: black;
+}
+
+.yt-cont {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    padding-top: 56.25%;
 }
 
 .youtube-video {
@@ -281,11 +303,12 @@ nav li {
 
 .about {
     padding: 30px !important;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    position: relative;
 }
 
 .about p {
@@ -293,9 +316,9 @@ nav li {
 }
 
 .about-image img {
-    max-height: 550px;
-    width: auto;
-    border-radius: 50%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 5px;
 }
 
 .about-image {
@@ -625,25 +648,24 @@ a:hover {
 
 /* -----------training.html */
 
-.about-training {
-    background-color: black;
-}
 
-.about-training h1 {
-    padding-top: 25px;
-    display: inline-block;
-}
 
 .training-head {
-    background-color: rgba(0, 0, 0, 0);
-    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 30px;
     width: 70vw;
+    border-radius: 5px;
+
 }
 
 .training-head img {
     max-height: 60px;
     border: 2px solid orangered;
     border-radius: 30px;
+}
+
+.training-head ul {
+    padding: 5px;
 }
 
 /* -----------breeding.html */
@@ -852,6 +874,12 @@ input {
 
 /* Text containers */
 
+@media (min-width: 1201px) {
+    .training-head {
+        padding-left: 30px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .breeding,
@@ -876,7 +904,34 @@ input {
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 500px) {
+
+    .box-highlight,
+    .about-image img {
+        width: 100%;
+        border: none;
+
+    }
+
+    .training-head {
+        padding: 5px;
+    }
+
+    .training-head img {
+        display: none;
+    }
+
+    .training-head h2 {
+        text-align: center;
+    }
+
+    .page-title {
+        height: 50vh;
+    }
+
+}
+
+@media (max-width: 1200px) {
     .about {
         padding: 5px 10px;
     }
@@ -885,8 +940,9 @@ input {
         padding-top: 5px;
     }
 
+    .box-highlight,
     .about-image img {
-        max-height: 300px;
+        max-width: 350px;
         border: none;
 
     }
