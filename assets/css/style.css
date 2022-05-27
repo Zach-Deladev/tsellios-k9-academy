@@ -5,23 +5,18 @@
     --ff-heading: "Abril Fatface", sans-serif;
     --fs-xl: 2.5rem;
     --fs-l: 2rem;
+    --fs-m: 1.5rem;
     --fs-600: 1.25rem;
     --fs-400: 1rem;
 }
 
-@media (max-width: 1600px) {
-    :root {
-        --fs-xl: 2.5rem;
-        --fs-l: 2rem;
-        --fs-600: 1.25rem;
-        --fs-400: 1rem;
-    }
-}
+
 
 @media (max-width: 1360px) {
     :root {
         --fs-xl: 2rem;
         --fs-l: 1.6rem;
+        --fs-m: 1.2rem;
         --fs-600: 1rem;
         --fs-400: 0.85rem;
     }
@@ -29,8 +24,10 @@
 
 @media (max-width: 530px) {
     :root {
-        --fs-l: 1.2rem;
+        --fs-l: 1rem;
+        --fs-m: 1rem;
         --fs-600: .8rem;
+        --fs-400: 0.65rem
     }
 }
 
@@ -67,8 +64,12 @@ h2 {
     font-size: var(--fs-l);
 }
 
+h3 {
+    font-size: var();
+}
+
 h4 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-m);
 }
 
 p {
@@ -302,7 +303,7 @@ nav li {
 
 
 .about {
-    padding: 30px !important;
+    padding: 10px 30px !important;
     background-color: rgba(0, 0, 0, 0);
     align-items: center;
     display: flex;
@@ -573,21 +574,11 @@ a:hover {
     text-align: center;
 }
 
-.what-we-do {
-    position: relative;
-}
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, .8)
+
+.what-we-do {
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .what-text {
@@ -602,24 +593,39 @@ a:hover {
     text-align: center;
 }
 
+
+
+.what-card {
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    height: 320px;
+    margin: 20px 20px;
+    border-radius: 5px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(134, 39, 4, 0.9);
+}
+
 .what-card:hover .overlay {
     opacity: 1;
 
 }
 
-.what-card {
-    position: relative;
-    background-color: rgba(134, 39, 4, .9);
-    width: 270px;
-    margin: 15px 20px;
-    border-radius: 5px;
-
-}
-
 .what-card img {
 
-    width: 270px;
-    height: 270px;
+    width: 320px;
+    height: 320px;
     overflow: hidden;
 }
 
@@ -633,7 +639,9 @@ a:hover {
 
 .test-name {
     text-align: center;
+
 }
+
 
 
 
@@ -653,10 +661,15 @@ a:hover {
 
 .training-head-list {
     background-color: rgba(0, 0, 0, .5);
+    min-height: 800px;
     padding: 30px;
-    border-radius: 5px;
+
 
 }
+
+
+
+
 
 .training-head img {
     max-height: 60px;
@@ -667,6 +680,14 @@ a:hover {
 .training-head ul {
     padding: 5px;
 }
+
+.online-academy {
+    background-color: rgba(0, 0, 0, .5);
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
 
 /* -----------breeding.html */
 
@@ -682,7 +703,7 @@ a:hover {
 
 .rounded:hover {
     box-shadow: rgba(0, 0, 0, 1);
-    transform: scale(1.1);
+    transform: scale(1.05);
 
 }
 
@@ -937,6 +958,20 @@ input {
 
 /* about.html */
 
+@media (max-width: 530px) {
+
+    .what-card img {
+
+        width: 240px;
+        height: 240px;
+        overflow: hidden;
+    }
+
+    .what-card {
+        width: 240px;
+        height: 240px;
+    }
+}
 
 
 /*  Training page */
