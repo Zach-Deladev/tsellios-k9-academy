@@ -10,8 +10,6 @@
     --fs-400: 1rem;
 }
 
-
-
 @media (max-width: 1360px) {
     :root {
         --fs-xl: 2rem;
@@ -104,21 +102,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-.box-highlight {
-    padding: 25px;
-    background-color: rgba(134, 39, 4, 0.8);
-    display: block;
-    flex-wrap: wrap;
-    width: 350px;
-}
-
-.box-highlight ul {
-    padding-left: 0;
-    padding-top: 10px;
-}
-
-
 
 /* ----------Video background */
 
@@ -250,18 +233,6 @@ nav li {
     object-fit: cover;
 }
 
-#main-container-two {
-    position: relative;
-    overflow: hidden;
-}
-
-#main-container-two video {
-    height: 50vh;
-    width: 100%;
-    z-index: 10;
-    object-fit: cover;
-}
-
 #main-container .content {
     height: 100%;
     width: 100%;
@@ -314,22 +285,6 @@ nav li {
 
 .about p {
     padding: 10px 15px;
-}
-
-.about-image img {
-    max-width: 350px;
-    height: auto;
-    border-radius: 5px;
-}
-
-.about-image {
-    flex-wrap: wrap;
-    padding: 15px !important;
-
-}
-
-.about-image h4 {
-    padding-top: 10px;
 }
 
 /* ----------Jumbotron */
@@ -491,13 +446,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-.social-hr {
-    border: 1px solid orangered;
-    width: 90px;
-    border-radius: 2px;
-    margin-bottom: 0;
-    margin-top: 13px;
-}
+
 
 /* ----------- index.html */
 
@@ -557,8 +506,6 @@ a:hover {
 
 /* -----------about.html */
 
-
-
 .about-head {
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
@@ -573,8 +520,6 @@ a:hover {
 .about .about-image {
     text-align: center;
 }
-
-
 
 .what-we-do {
     padding-top: 20px;
@@ -593,15 +538,12 @@ a:hover {
     text-align: center;
 }
 
-
-
 .what-card {
     position: relative;
     background-color: rgba(0, 0, 0, .5);
     height: 320px;
     margin: 20px 20px;
     border-radius: 5px;
-
 }
 
 .overlay {
@@ -619,11 +561,9 @@ a:hover {
 
 .what-card:hover .overlay {
     opacity: 1;
-
 }
 
 .what-card img {
-
     width: 320px;
     height: 320px;
     overflow: hidden;
@@ -639,37 +579,22 @@ a:hover {
 
 .test-name {
     text-align: center;
-
 }
 
-
-
-
-
-
 /* -----------training.html */
-
-
 
 .training-head {
     background-color: rgba(0, 0, 0, .5);
     padding: 30px;
     width: 70vw;
     border-radius: 5px;
-
 }
 
 .training-head-list {
     background-color: rgba(0, 0, 0, .5);
     min-height: 800px;
     padding: 30px;
-
-
 }
-
-
-
-
 
 .training-head img {
     max-height: 60px;
@@ -799,7 +724,7 @@ input {
         height: 40px;
         font-size: 18px;
         border: 2px solid orangered;
-        padding-top: 10px;
+        padding-top: 9px;
         border-radius: 20px;
         -moz-border-radius: 20px;
         -webkit-border-radius: 20px;
@@ -1019,7 +944,7 @@ input {
         height: 40px;
         font-size: 18px;
         border: 2px solid orangered;
-        padding-top: 10px;
+        padding-top: 9px;
         border-radius: 20px;
         -moz-border-radius: 20px;
         -webkit-border-radius: 20px;
