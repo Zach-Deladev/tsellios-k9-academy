@@ -127,17 +127,11 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ---
 ### **Wireframes**
 
--   Home Page Wireframe - [View](https://github.com/) [Insert path]
+-   GitHub Link - [View](https://github.com/) [Insert path]
 
-<h2 align="center"><img src="assets/images/home-wireframe.png"></h2>
+<h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
 
--   About Us Wireframe - [View](https://github.com/) [Insert path]
 
-<h2 align="center"><img src="assets/images/about-wireframe.png"></h2>
-
--   Contact Us Page Wireframe - [View](https://github.com/) [Insert path]
-
-<h2 align="center"><img src="assets/images/contact-wireframe.png"></h2>
 
 
 ## **Surface Plane**    

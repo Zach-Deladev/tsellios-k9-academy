@@ -612,10 +612,7 @@ a:hover {
     margin: 0 auto;
 }
 
-
-
 /* -----------breeding.html */
-
 
 .breeding-gallery {
     padding: 30px;
@@ -682,7 +679,6 @@ input {
     background-color: rgb(134, 39, 4);
 
 }
-
 
 /* ----------Media Queires */
 
@@ -807,11 +803,6 @@ input {
         padding: 5px 10px;
     }
 
-    .about-image {
-        text-align: center;
-        padding-right: 0px;
-    }
-
     .breeding-text {
         padding-bottom: 10px;
         padding: 0 30px 10px 30px;
@@ -820,11 +811,9 @@ input {
 
 @media (max-width: 500px) {
 
-    .box-highlight,
-    .about-image img {
+    .box-highlight {
         width: 100%;
         border: none;
-
     }
 
     .training-head {
@@ -858,7 +847,6 @@ input {
     .about-image img {
         max-width: 350px;
         border: none;
-
     }
 
     .training-head h2 {
@@ -886,7 +874,6 @@ input {
 @media (max-width: 530px) {
 
     .what-card img {
-
         width: 240px;
         height: 240px;
         overflow: hidden;
