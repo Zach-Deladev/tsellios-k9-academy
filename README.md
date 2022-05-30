@@ -142,9 +142,10 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ### **Typography**
 
 
--   [Include details about the font you used, and their style].
+-   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-seriif for cross browser compatibility.
 
-![Fonts](./assets/images/fonts.png "Fonts")
+![Exo](assets/images/readme/exo-font.png "Exo")
+![Poppins](assets/images/readme/poppins-font.png "Poppins")
 
 
 ### **Color Scheme**
@@ -200,8 +201,11 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
+![HTML Testing](assets/images/readme/html-validator-test.png "HTML Testing")
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
+![CSS Testing](assets/images/readme/css-validator-test.png "CSS Testing")
 
 ### Testing User Stories from User Experience (UX) Section
 
