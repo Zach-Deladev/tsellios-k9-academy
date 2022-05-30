@@ -62,16 +62,16 @@ h2 {
     font-size: var(--fs-l);
 }
 
-h3 {
-    font-size: var();
-}
-
 h4 {
     font-size: var(--fs-m);
 }
 
 p {
     font-size: var(--fs-400);
+}
+
+ul {
+    padding: 0;
 }
 
 .pages {
@@ -612,6 +612,16 @@ a:hover {
     margin: 0 auto;
 }
 
+.training-modules {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 60px;
+    position: relative;
+}
+
+.training-modules ul {
+    padding-top: 10px;
+}
+
 /* -----------breeding.html */
 
 .breeding-gallery {
@@ -624,9 +634,7 @@ a:hover {
 }
 
 .rounded:hover {
-    box-shadow: rgba(0, 0, 0, 1);
     transform: scale(1.05);
-
 }
 
 /* ---------- contact.html */
@@ -858,7 +866,9 @@ input {
 /* Index.html */
 
 @media (min-width: 760px) {
-    .testimonials {
+
+    .testimonials,
+    .training-modules {
         padding: 10px;
     }
 }
