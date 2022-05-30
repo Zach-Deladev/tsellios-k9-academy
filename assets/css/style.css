@@ -304,6 +304,7 @@ nav li {
 
 .jumbotron h1 {
     font-size: var(--fs-xl);
+    padding-top: 30px;
 }
 
 .jumbotron p {

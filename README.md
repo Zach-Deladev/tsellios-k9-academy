@@ -142,7 +142,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ### **Typography**
 
 
--   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-seriif for cross browser compatibility.
+-   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-serif for cross browser compatibility.
 
 ![Exo](assets/images/readme/exo-font.png "Exo")
 ![Poppins](assets/images/readme/poppins-font.png "Poppins")
