@@ -126,8 +126,11 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ## **Skeleton Plane**
 ---
 ### **Wireframes**
+ 
 
--   GitHub Link - [View](https://github.com/) [Insert path]
+ **Created with Draw.io**  
+ 
+ GitHub Link - [View](https://github.com/) [Insert path]
 
 <h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
 
