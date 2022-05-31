@@ -233,7 +233,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+-   #### Real User stories testing:
 
     1. First Time Visitor, first impressions:
 
@@ -250,43 +250,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. "As someone who is keen to keep up to date with the businesses services I followed their social media where I can keep checking for updates to their services and more information on the release of the online academy which I am excited about!"
         2. "It would be nice if there was a newsletter I could sign up to to recieve updates by email."
 
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want [...].
-
-        1. [].
-        2. [].
-        3. [].
-
-    2. As a Returning Visitor, I want [...].
-
-        1. [].
-        2. [].
-        3. [].
-
-    3. As a Returning Visitor, I want to [...].
-        1. [].
-        2. [].
-        3. []. 
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want [...].
-
-        1. [].
-        2. [].
-        3. [].
-
-    2. As a Frequent User, I want [...].
-
-        1. [].
-        2. [].
-        3. [].
-
-    3. As a Frequent User, I want [...].
-        1. [].
-        2. [].
-        3. [].
 
 ### Further Testing
 
