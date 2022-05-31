@@ -101,17 +101,41 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 **Home *"Page"*:**
 
-- 
+- Social media icons to direct the user to the social media pages to build an online following.
+- Marketing video to draw the users attention and give them a quick insight into the businesses services.
+- Testimonials section to show the user the business is reputable.
 
-**About Me *"Page"*:**
+**About Us *"Page"*:**
 
-- 
+- Overview of the origin and transformation the business has went through.
+- Interactive links directing the user to the different services the business offers.
+- Our mission section to give confidence to the user that the business aligns with their needs.
+- Small gallery of photos of the staff training with their dogs.
+
+**Training *"Page"*:**
+
+- Brief written summaries of training services offered with marketing videos below to engage the user with high quality imagery.
+- Coming soon section detailing the online academy and the modules the user can expect to see upon release.
+
+**Breeding *"Page"*:**
+
+- Summary of the breeding services of the business.
+- Gallery of puppies produced by the business with a professional "Fancy box" gallery.
 
 **Contact Us *"Page"*:**
 
-- 
+- Simple and easy to use contact form for the user to ask for further information.
 
 ### **Future Iterations**
+
+**Online Academy *"Page"*:**
+- The site will eventually be updated with the ability to sign up and log in to the online academy where users can sample for free and purchase online instructional training videos.
+- The online academy will also have the option to book one to one online sessions with a trainer to discuss training needs.
+
+**Online Store *"Page"*:**
+- The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
+
+
 
 
 ## **Structure Plane**
@@ -211,22 +235,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want [...].
+    1. First Time Visitor, first impressions:
 
-        1. []
-        2. []
-        3. [].
+        1. "The heading of the website made it immediately obvious what the business specializes in."
+        2. "From first glance the navigation was very self explanatory guiding me to exactly the information I needed."
+        3. "Instantly from opening the site I seen links to the businesses social meida pages and the design drew my attention to them straight away."
 
-    2. As a First Time Visitor, I want [...].
+    2. Returning Visitor stories:
 
-        1. [].
-        2. [].
-        3. [].
+        1. "After leaving the site to view the social media pages I returned to find out more about the training services, the information needed was easily found and this prompted me to contact the business within the contact page to ask for further information."
+        
 
-    3. As a First Time Visitor, I want [...].
-        1. [].
-        2. [].
-        3. [].
+    3. Frequent User stories:
+        1. "As someone who is keen to keep up to date with the businesses services I followed their social media where I can keep checking for updates to their services and more information on the release of the online academy which I am excited about!"
+        2. "It would be nice if there was a newsletter I could sign up to to recieve updates by email."
 
 -   #### Returning Visitor Goals
 
