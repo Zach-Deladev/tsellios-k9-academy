@@ -35,7 +35,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 - Existing security dog habndlers.
 - Domestic dog owners. 
 - Potential new dog owners.
-- Dog owners with training needs.s
+- Dog owners with training needs.
 
 ### **User Needs**
 
@@ -92,46 +92,76 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 
 ---
-### **Existing Features**
+## **Existing Features**
 
-**Home *"Page"*:**
 
-- Social media icons to direct the user to the social media pages to build an online following.
-- Marketing video to draw the users attention and give them a quick insight into the businesses services.
-- Testimonials section to show the user the business is reputable.
+### **Navigation:**
 
-**About Us *"Page"*:**
+- Every page has a simple yet effection Navigation bar that is transparent but transistions to black on scroll of the page to stop content overlap. 
+
+![Navigation](assets/images/readme/nav-image.png "Navigation")
+
+
+### **index.html *"Page"*:**
+1. Hero marketing video to instantly engage the user.
+
+2. Social media icons to direct the user to the social media pages to build an online following.
+
+3. Simple heading which gives the user a quick insight into the businesses and what it does.
+
+![index.html](assets/images/readme/index-image.png "index.html")
+
+4. Testimonials section to show the user the business is reputable.
+
+![Testimonials](assets/images/readme/testimonials.png "Testimonials")
+
+
+### **about.html *"Page"*:**
 
 - Overview of the origin and transformation the business has went through.
+
 - Interactive links directing the user to the different services the business offers.
+
+![Interactive links](assets/images/readme/about-interactive-links.png "Interactive Links")
+
 - Our mission section to give confidence to the user that the business aligns with their needs.
+
 - Small gallery of photos of the staff training with their dogs.
 
-**Training *"Page"*:**
+
+### **training.html *"Page"*:**
 
 - Brief written summaries of training services offered with marketing videos below to engage the user with high quality imagery.
+
 - Coming soon section detailing the online academy and the modules the user can expect to see upon release.
 
-**Breeding *"Page"*:**
+
+### **breeding.html *"Page"*:**
 
 - Summary of the breeding services of the business.
+
 - Gallery of puppies produced by the business with a professional "Fancy box" gallery.
 
-**Contact Us *"Page"*:**
+![Breeding gallery](assets/images/readme/gallery-breeding.png "Breeding gallery")
+
+
+### **contact.html *"Page"*:**
 
 - Simple and easy to use contact form for the user to ask for further information.
 
-### **Future Iterations**
+
+## **Future Iterations**
 
 **Online Academy *"Page"*:**
 - The site will eventually be updated with the ability to sign up and log in to the online academy where users can sample for free and purchase online instructional training videos.
+
 - The online academy will also have the option to book one to one online sessions with a trainer to discuss training needs.
 
 **Online Store *"Page"*:**
 - The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
 
 ---
-### **Wireframes**
+## **Wireframes**
  
 
  **Created with Draw.io**  
@@ -141,7 +171,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 <h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
    
 ---
-### **Typography**
+## **Typography**
 
 -   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-serif for cross browser compatibility.
 
@@ -149,19 +179,14 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ![Poppins](assets/images/readme/poppins-font.png "Poppins")
 
 
-### **Color Scheme**
+## **Color Scheme**
 
 -   The three main colours used are black, grey, and white. 
 -   There is also subtle use of the OrangeRed color to draw user attention.
         
 ![Color Palette](./assets/images/colour-palette.png "Color Palette")
 
-
-### **Media**
-
- -   The large, background hero video is designed to be catch the potential customers attention. It quickly displays social media links to guide traffic and build a social media following.
-
-
+---
 ## Features
 
 -   The webiste is responsive on all device sizes
@@ -237,6 +262,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [List bugs]
 
+---
+
 ## Deployment
 
 ### GitHub Pages
@@ -284,6 +311,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+---
 
 ## Credits
 
