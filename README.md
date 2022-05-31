@@ -19,11 +19,6 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 - [Project Overview](#project-overview "Project Overview")
 - [UX Design](#user-experience "User Design")
-  - [Strategy Plane](#strategy-plane "Strategy Plane")
-  - [Scope plane](#scope-plane "Scope plane")
-  - [Structure Plane](#structure-plane "Structure plane")
-  - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
-  - [Surface Plane](#surface-plane "Surface Plane")
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
 - [Deployment](#deployment "Deployment")
@@ -32,7 +27,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 ## User Experience (UX)
 
-## **Strategy Plane** 
+
 ---
 ### **Target Audience**
 
@@ -95,7 +90,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 - Ability to ask questions by email.
 - Educational videos. 
 
-## **Scope Plane**
+
 ---
 ### **Existing Features**
 
@@ -135,19 +130,6 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 **Online Store *"Page"*:**
 - The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
 
-
-
-
-## **Structure Plane**
-
-### **Website Structure**
-
-### **Planned Structure**
-
-### **Future Additions**
-
-
-## **Skeleton Plane**
 ---
 ### **Wireframes**
  
@@ -157,14 +139,9 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
  GitHub Link - [View](https://github.com/) [Insert path]
 
 <h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
-
-
-
-
-## **Surface Plane**    
+   
 ---
 ### **Typography**
-
 
 -   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-serif for cross browser compatibility.
 
@@ -183,7 +160,6 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ### **Media**
 
  -   The large, background hero video is designed to be catch the potential customers attention. It quickly displays social media links to guide traffic and build a social media following.
-
 
 
 ## Features
@@ -256,7 +232,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Ipad Air, Ipad Mini,  iPhone SE, Samsung Galaxy s8 & Samsung Galaxy s20 ultra.
 -   Friends and family were asked to test the webiste on a range of devices and their experiences were noted. 
-
 
 ### Known Bugs
 
