@@ -75,7 +75,7 @@ ul {
 }
 
 .pages {
-    background: url("/workspace/milestone-project-frontend/assets/images/thanasis-pages-bg.jpg");
+    background: url("https://github.com/Zach-Deladev/milestone-project-frontend/blob/main/assets/images/thanasis-pages-bg.jpg?raw=true");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
