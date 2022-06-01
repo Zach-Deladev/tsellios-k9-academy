@@ -902,7 +902,7 @@ input {
 
 /* Breeding.html */
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     .about .training-head .breeding-ul {
         padding: 20px;
         margin-left: 20px;
