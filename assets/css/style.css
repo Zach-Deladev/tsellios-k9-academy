@@ -25,7 +25,7 @@
         --fs-l: 1rem;
         --fs-m: 1rem;
         --fs-600: .8rem;
-        --fs-400: 0.65rem
+        --fs-400: 0.75rem
     }
 }
 
@@ -75,7 +75,7 @@ ul {
 }
 
 .pages {
-    background: url("/milestone-project-frontend/assets/images/thanasis-pages-bg.jpg");
+    background: url("assets/images/thanasis-pages-bg.jpg");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -602,9 +602,9 @@ a:hover {
     border-radius: 30px;
 }
 
-.training-head ul {
+/* .training-head ul {
     padding: 5px;
-}
+} */
 
 .online-academy {
     background-color: rgba(0, 0, 0, .5);
@@ -902,9 +902,10 @@ input {
 
 /* Breeding.html */
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .about .training-head .breeding-ul {
         padding: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -955,6 +956,6 @@ input {
     }
 
     .footer .socialbtns p {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
