@@ -75,7 +75,7 @@ ul {
 }
 
 .pages {
-    background: url("assets/images/thanasis-pages-bg.jpg");
+    background: url("https://github.com/Zach-Deladev/milestone-project-frontend/blob/main/assets/images/thanasis-pages-bg.jpg");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -601,10 +601,6 @@ a:hover {
     border: 2px solid orangered;
     border-radius: 30px;
 }
-
-/* .training-head ul {
-    padding: 5px;
-} */
 
 .online-academy {
     background-color: rgba(0, 0, 0, .5);
