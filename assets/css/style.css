@@ -602,6 +602,10 @@ a:hover {
     border-radius: 30px;
 }
 
+.training-head ul {
+    padding-left: 25px;
+}
+
 .online-academy {
     background-color: rgba(0, 0, 0, .5);
     width: 70vw;
