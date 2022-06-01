@@ -75,7 +75,7 @@ ul {
 }
 
 .pages {
-    background-image: url("assets/images/thanasis-pages-bg.jpg");
+    background-image: url("../images/thanasis-pages-bg.jpg");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
