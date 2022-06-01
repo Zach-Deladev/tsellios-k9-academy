@@ -95,6 +95,16 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 
 ---
+## **Wireframes**
+ 
+
+ **Created with Draw.io**  
+ 
+ GitHub Link - [View](https://github.com/) [Insert path]
+
+<h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
+   
+---
 ## **Existing Features**
 
 ### **Navigation:**
@@ -228,16 +238,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 - The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
 
 ---
-## **Wireframes**
- 
 
- **Created with Draw.io**  
- 
- GitHub Link - [View](https://github.com/) [Insert path]
-
-<h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
-   
----
 ## **Typography**
 
 -   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-serif for cross browser compatibility.
