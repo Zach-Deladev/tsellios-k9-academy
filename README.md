@@ -81,20 +81,21 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
         3. As a Frequent User, I want to sign up to the Newsletter so that I am notified of major updates and/or changes to the companies website and/or services.
 
 
-### **Website Functionality**
+### **Website Functionality Considerations:**
 
 - User friendly.
-- Responsive.
-- Business overview.
+- Accessible.
+- Fully responsive.
+- Clear business overview.
 - Training services.
-- Ability to ask questions by email.
-- Educational videos. 
+- Ability to contact the business.
+- The website needs captivating media, including large videos and images.
+- The website needs interactive elements.
+
 
 
 ---
-# **Existing Features**
-
-## **Page Structure:**
+## **Existing Features**
 
 ### **Navigation:**
 
@@ -102,19 +103,21 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 ![Navigation](assets/images/readme/nav-image.png "Navigation")
 
-2. The navigation baris also responsive and collapses on smaller screen sizes into a "burger" menu in order to keep the design clean and simple.
+2. The navigation bar is also responsive and collapses on smaller screen sizes into a "burger" menu in order to keep the design clean and simple.
 
 3. I implemented a hover effect when the user highlights a menu item in order to give the navigation menu a interactive feel.
+
+4. I also added a orange background to the "contact us" menu item to divert the users attention to the contact page. On smaller screens where the menu collapses I added an alert above the navbar to have the same desired outcome.
 
 ### **Header:**
 
 1. Every page has a consistent header with a H1 element and a background image.
 
-### **Content:**
+### **Body:**
 
 1. Every page follows the same content structure:
     
-    - The webistes text containers have a RGBA transparent background which helps the text stand out from the background image aiding readability.
+    - The websites text containers have a RGBA transparent background which helps the text stand out from the background image giving a clear contrast making the text easy to read.
     - Each section of the content is clearly defined with a new heading making the flow of information easy to follow.
     - Each page divides the text with either images or videos in order to keep the users attention for longer. 
 
@@ -125,7 +128,6 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
     - The footer includes interactive social media icons to guide the user to the respective social media profiles.
     - The footer also has quick links to the sites different pages so the user can quickly navigate the site.
     - The footer is responsive on all screen sizes.
-
 
 
 ### **index.html *"Page"*:**
@@ -252,11 +254,6 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 ![Color Palette](./assets/images/colour-palette.png "Color Palette")
 
 ---
-## Features
-
--   The webiste is responsive on all device sizes
--   The website displays captivating media, including large videos and images
--   The website contains interactive elements and button hover animations
 
 ## Technologies Used
 
