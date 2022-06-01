@@ -92,62 +92,127 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 
 ---
-## **Existing Features**
+# **Existing Features**
 
+## **Page Structure:**
 
 ### **Navigation:**
 
-- Every page has a simple yet effection Navigation bar that is transparent but transistions to black on scroll of the page to stop content overlap. 
+1. Every page has a simple yet effection Navigation bar that is transparent but transistions to black on scroll of the page to stop content overlap.
 
 ![Navigation](assets/images/readme/nav-image.png "Navigation")
 
+2. The navigation baris also responsive and collapses on smaller screen sizes into a "burger" menu in order to keep the design clean and simple.
+
+3. I implemented a hover effect when the user highlights a menu item in order to give the navigation menu a interactive feel.
+
+### **Header:**
+
+1. Every page has a consistent header with a H1 element and a background image.
+
+### **Content:**
+
+1. Every page follows the same content structure:
+    
+    - The webistes text containers have a RGBA transparent background which helps the text stand out from the background image aiding readability.
+    - Each section of the content is clearly defined with a new heading making the flow of information easy to follow.
+    - Each page divides the text with either images or videos in order to keep the users attention for longer. 
+
+### **Footer:**
+
+1. Every page has the same styled footer:
+
+    - The footer includes interactive social media icons to guide the user to the respective social media profiles.
+    - The footer also has quick links to the sites different pages so the user can quickly navigate the site.
+    - The footer is responsive on all screen sizes.
+
+
 
 ### **index.html *"Page"*:**
-1. Hero marketing video to instantly engage the user.
+1. Hero marketing video to instantly engage the user:
 
-2. Social media icons to direct the user to the social media pages to build an online following.
+    - This video covers 80% of the viewport height leaving 20% of the section below slightly visible to make the user aware that there is content underneath.
+    - I added greyscale to the video in order to make the content on top stand out and to make sure theres a clean contrast between the background and the content.
 
-3. Simple heading which gives the user a quick insight into the businesses and what it does.
+2. Social media icons to direct the user to the social media pages to build an online following:
+
+    - Keeping in line with the business goals and chosen colour palette I used a subtle orange border around the social media icons to direct the users attention.
+    - To make the user feel engaged with the site I added hover effects to the icons so they change colour when the cursor hovers over them.
+    - Each Social media icon links directly to the business owners respective social media profiles in a seperate browser tab so the user does not lose their position on the page within the website.
+    
+
+3. Business heading and title:
+
+    - The heading was made using a Jumbotron and gives a short but descriptive overview of the business.
 
 ![index.html](assets/images/readme/index-image.png "index.html")
 
-4. Testimonials section to show the user the business is reputable.
+4. Testimonials section:
+
+    - The testimonials sections helps the user make a decision on their first impressions on whether the company is reputable or not.
+    - The testimonials on the site a real life testimonials for the business provided by the business owner.
+    - The testimonials are a custom card design I created which are responsive on different screen sizes.
+    - To keep in line with the colour palette I added a background colour or orange to them.
 
 ![Testimonials](assets/images/readme/testimonials.png "Testimonials")
 
 
 ### **about.html *"Page"*:**
 
-- Overview of the origin and transformation the business has went through.
+1. Overview of the origin and journey of the business. 
 
-- Interactive links directing the user to the different services the business offers.
+2. What we do section:
+
+    - These images are interactive and on hover a orange overlay appears with text guiding the user to click on them to find out more.
 
 ![Interactive links](assets/images/readme/about-interactive-links.png "Interactive Links")
 
-- Our mission section to give confidence to the user that the business aligns with their needs.
+3. Our mission section to give confidence to the user that the business aligns with their needs.
 
-- Small gallery of photos of the staff training with their dogs.
+4. Small gallery of photos of the staff training with their dogs.
+
+    - This gallery uses Bootstrap grid to make it responsive.
+    - All images are free from stretch and pixelation.
+    - All images have relevant alternative text equivalents for the visually impaired.
 
 
 ### **training.html *"Page"*:**
 
-- Brief written summaries of training services offered with marketing videos below to engage the user with high quality imagery.
+1. Behavioural training section:
 
-- Coming soon section detailing the online academy and the modules the user can expect to see upon release.
+    - This section includes a text contatiner that gives a breif overview of the service offered.
+    - This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
+
+2. Protection training section:
+
+    - This section includes a text contatiner that gives a breif overview of the service offered.
+    - This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
+
+3. Online academy section:
+
+- Coming soon section detailing the upcoming online academy.
+- This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
+- Training modules overview in the style of orange cards giving information on the training modules the product will offer.
 
 
 ### **breeding.html *"Page"*:**
 
-- Summary of the breeding services of the business.
+1. Summary of the breeding services of the business.
 
-- Gallery of puppies produced by the business with a professional "Fancy box" gallery.
+2. Gallery of puppies:
+
+    - Display in a bootstrap grid style gallery. 
+    - Using a fancy box gallery so the user can view the full sized images full screen and click through the image carousel.
 
 ![Breeding gallery](assets/images/readme/gallery-breeding.png "Breeding gallery")
 
 
 ### **contact.html *"Page"*:**
 
-- Simple and easy to use contact form for the user to ask for further information.
+1. Contact form:
+
+    - The contact form is clear and promts the user on what information is needed in each field.
+    - Orange interactive send message button that the colour changes on hover.
 
 
 ## **Future Iterations**
