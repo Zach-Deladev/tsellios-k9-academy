@@ -75,7 +75,7 @@ ul {
 }
 
 .pages {
-    background: url("/assets/images/thanasis-pages-bg.jpg");
+    background: url("/milestone-project-frontend/assets/images/thanasis-pages-bg.jpg");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
