@@ -18,14 +18,14 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 # **CONTENT** 
 
 - [Project Overview](#project-overview "Project Overview")
-- [User Experience (UX)](#user-experience "User Experience (UX)")
+- [User Experience](#user-experience "User Experience")
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
 - [Deployment](#deployment "Deployment")
 - [Credits](#credits "Credits")
 - [Acknowledgements](#acknowledgements "Acknowledgements")
 
-## User Experience (UX)
+## **User Experience** (UX)
 
 
 ---
