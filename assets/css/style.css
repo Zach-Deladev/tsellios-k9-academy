@@ -722,6 +722,10 @@ input {
     .nav-item-dr {
         background-color: rgba(0, 0, 0, 1);
     }
+
+    .navbarNavDropdown {
+        background-color: #000;
+    }
 }
 
 /* Social Icons */
