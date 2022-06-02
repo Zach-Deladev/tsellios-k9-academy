@@ -11,9 +11,9 @@
 
 This is the main marketing website for Tsellios K9 Academy. It is designed to be responsive and accessible on both mobile and desktop devices, making it easy to both use and navigate for potential customers.
 
-This project is the first milestone project completed by myself while working towards my qualification with the Code Institute. 
+This is the first milestone project completed by myself while working towards my qualification with the Code Institute. 
 
-The main goal of the Tsellios K9 Academy website is to market the dog training and breeding services of the business owner and promoting their social media accounts to build a strong online following. 
+The main goal of the Tsellios K9 Academy website, is to market the dog training and breeding services of the business owner and promote their social media accounts to build a strong online presence. 
 
 # **CONTENT** 
 
@@ -29,6 +29,9 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 
 
 ---
+
+### Strategy
+
 ### **Target Audience**
 
 - Aspiring security dog handlers.
@@ -80,6 +83,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
         2. As a Frequent User, I want to check to see if there's any new social media posts or updates.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am notified of major updates and/or changes to the companies website and/or services.
 
+### Scope
 
 ### **Website Functionality Considerations:**
 
@@ -92,9 +96,10 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 - The website needs captivating media, including large videos and images.
 - The website needs interactive elements.
 
-
-
 ---
+
+### Skeleton
+
 ## **Wireframes**
  
 
@@ -105,6 +110,9 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 <h2 align="center"><img src="assets/images/readme/wireframes-picture.png"></h2>
    
 ---
+
+### Structure
+
 ## **Existing Features**
 
 ### **Navigation:**
@@ -238,6 +246,7 @@ The main goal of the Tsellios K9 Academy website is to market the dog training a
 - The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
 
 ---
+### Surface
 
 ## **Typography**
 
@@ -339,44 +348,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the GitHub Repository.
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. Select the Settings tab in your GitHub repository. 
 
-### Forking the GitHub Repository
+2. locate the GitHub Pages section and chose the Master branch (mine was called "main") as the source to enable GitHub Pages.
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+3. Save the Master Branch as the source, wait till the page refreshes and locate the URL to the deployed website.
 
-1. Log in to GitHub and locate the GitHub Repository.
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the GitHub Repository.
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY [Enter your own repo details here]
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
+4. Test the URL to make sure the website has deployed properly.
 
 ---
 
