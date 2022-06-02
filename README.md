@@ -320,6 +320,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Ipad Air, Ipad Mini,  iPhone SE, Samsung Galaxy s8 & Samsung Galaxy s20 ultra.
 -   Friends and family were asked to test the webiste on a range of devices and their experiences were noted. 
+- I also tested the websites performance using the lighthouse feature in the browser dev tools.
+![Performance Testing](assets/images/readme/lighthouse-testing.png "Performance Testing")
+
+- The best practices section gave me some feedback but after careful consideration I decided to disregard these to keep the aesthetic of the site.
+
+![Best Practices](assets/images/readme/best-practices.png "Best Practices")
 
 ### Known Bugs
 
