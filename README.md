@@ -2,7 +2,7 @@
 
 
 
-<h2 align="center"><img src="assets/images/mockup.jpg"></h2>
+<h2 align="center"><img src="assets/images/readme/am-i-responsive.png"></h2>
 
 <h1 align="center"><img src="assets/images/tsellios-logo.png"></h1>
 
