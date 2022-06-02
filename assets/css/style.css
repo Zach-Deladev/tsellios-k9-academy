@@ -169,11 +169,11 @@ nav li {
     border-radius: 8px;
 }
 
-.nav-item {
+.nav-item-dr {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.nav-item:hover {
+.nav-item-dr:hover {
     background-color: rgb(128, 128, 128, 0.5);
 }
 
@@ -719,7 +719,7 @@ input {
         display: block;
     }
 
-    .nav-item {
+    .nav-item-dr {
         background-color: rgba(0, 0, 0, .5);
     }
 }
