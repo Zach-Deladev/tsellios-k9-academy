@@ -27,7 +27,6 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 ## **User Experience** (UX)
 
-
 ---
 
 ### Strategy
@@ -35,7 +34,7 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 ### **Target Audience**
 
 - Aspiring security dog handlers.
-- Existing security dog habndlers.
+- Existing security dog handlers.
 - Domestic dog owners. 
 - Potential new dog owners.
 - Dog owners with training needs.
@@ -49,8 +48,8 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 ### **Business Goals**
 
-- Promote social media pages to grow the businesses online community.
-- Market the businesses services online.
+- Promote social media pages to grow the business's online community.
+- Market the business's services online.
 - Promote the online training academy.
 - Educate dog owners on good training techniques.
 - Create revenue through training and selling of animals.
@@ -80,8 +79,8 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
  -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added dog training services.
-        2. As a Frequent User, I want to check to see if there's any new social media posts or updates.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am notified of major updates and/or changes to the companies website and/or services.
+        2. As a Frequent User, I want to check to see if there are any new social media posts or updates.
+        3. As a Frequent User, I want to sign up for the newsletter so that I am notified of major updates and/or changes to the company's website and/or services.
 
 ### Scope
 
@@ -117,48 +116,47 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 ### **Navigation:**
 
-1. Every page has a simple yet effection Navigation bar that is transparent but transistions to black on scroll of the page to stop content overlap.
+1. Every page has a simple yet effection Navigation bar that is transparent but transitions to black on the scroll of the page to stop content overlap.
 
 ![Navigation](assets/images/readme/nav-image.png "Navigation")
 
-2. The navigation bar is also responsive and collapses on smaller screen sizes into a "burger" menu in order to keep the design clean and simple.
+2. The navigation bar is also responsive and collapses on smaller screen sizes into a "burger" menu to keep the design clean and simple.
 
-3. I implemented a hover effect when the user highlights a menu item in order to give the navigation menu a interactive feel.
+3. I implemented a hover effect when the user highlights a menu item to give the navigation menu an interactive feel.
 
-4. I also added a orange background to the "contact us" menu item to divert the users attention to the contact page. On smaller screens where the menu collapses I added an alert above the navbar to have the same desired outcome.
+4. I also added an orange background to the "contact us" menu item to divert the user's attention to the contact page. On smaller screens where the menu collapses, I added an alert above the navbar to have the same desired outcome.
 
 ### **Header:**
 
-1. Every page has a consistent header with a H1 element and a background image.
+1. Every page has a consistent header with an H1 element and a background image.
 
 ### **Body:**
 
 1. Every page follows the same content structure:
     
-    - The websites text containers have a RGBA transparent background which helps the text stand out from the background image giving a clear contrast making the text easy to read.
+    - The website's text containers have an RGBA transparent background which helps the text stand out from the background image giving a clear contrast and making the text easy to read.
     - Each section of the content is clearly defined with a new heading making the flow of information easy to follow.
-    - Each page divides the text with either images or videos in order to keep the users attention for longer. 
+    - Each page divides the text with either images or videos to keep the user's attention for longer. 
 
 ### **Footer:**
 
 1. Every page has the same styled footer:
 
     - The footer includes interactive social media icons to guide the user to the respective social media profiles.
-    - The footer also has quick links to the sites different pages so the user can quickly navigate the site.
+    - The footer also has quick links to the site's different pages so the user can quickly navigate the site.
     - The footer is responsive on all screen sizes.
 
 
 ### **index.html *"Page"*:**
 1. Hero marketing video to instantly engage the user:
-
-    - This video covers 80% of the viewport height leaving 20% of the section below slightly visible to make the user aware that there is content underneath.
-    - I added greyscale to the video in order to make the content on top stand out and to make sure theres a clean contrast between the background and the content.
+    - This video covers 80% of the viewport height leaving 20% of the section below slightly visible to make the user aware that there is the content underneath.
+    - I added greyscale to the video to make the content on top stand out and to make sure there's a clear contrast between the background and the content.
 
 2. Social media icons to direct the user to the social media pages to build an online following:
 
-    - Keeping in line with the business goals and chosen colour palette I used a subtle orange border around the social media icons to direct the users attention.
+    - Keeping in line with the business goals and chosen colour palette I used a subtle orange border around the social media icons to direct the user's attention.
     - To make the user feel engaged with the site I added hover effects to the icons so they change colour when the cursor hovers over them.
-    - Each Social media icon links directly to the business owners respective social media profiles in a seperate browser tab so the user does not lose their position on the page within the website.
+    - Each Social media icon links directly to the business owner's respective social media profiles in a separate browser tab so the user does not lose their position on the page within the website.
     
 
 3. Business heading and title:
@@ -169,9 +167,9 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 4. Testimonials section:
 
-    - The testimonials sections helps the user make a decision on their first impressions on whether the company is reputable or not.
-    - The testimonials on the site a real life testimonials for the business provided by the business owner.
-    - The testimonials are a custom card design I created which are responsive on different screen sizes.
+    - The testimonials section helps the user decide on their first impressions of whether the company is reputable or not.
+    - The testimonials on the site are real-life testimonials for the business provided by the business owner.
+    - The testimonials are a custom card design I created which is responsive on different screen sizes.
     - To keep in line with the colour palette I added a background colour or orange to them.
 
 ![Testimonials](assets/images/readme/testimonials.png "Testimonials")
@@ -183,15 +181,15 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 2. What we do section:
 
-    - These images are interactive and on hover a orange overlay appears with text guiding the user to click on them to find out more.
+    - These images are interactive and on hover, an orange overlay appears with text guiding the user to click on them to find out more.
 
 ![Interactive links](assets/images/readme/about-interactive-links.png "Interactive Links")
 
-3. Our mission section to give confidence to the user that the business aligns with their needs.
+3. Our mission section is to give confidence to the user that the business aligns with their needs.
 
-4. Small gallery of photos of the staff training with their dogs.
+4. A small gallery of photos of the staff training with their dogs.
 
-    - This gallery uses Bootstrap grid to make it responsive.
+    - This gallery uses a Bootstrap grid to make it responsive.
     - All images are free from stretch and pixelation.
     - All images have relevant alternative text equivalents for the visually impaired.
 
@@ -200,19 +198,19 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 1. Behavioural training section:
 
-    - This section includes a text contatiner that gives a breif overview of the service offered.
+    - This section includes a text container that gives a brief overview of the service offered.
     - This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
 
 2. Protection training section:
 
-    - This section includes a text contatiner that gives a breif overview of the service offered.
+    - This section includes a text container that gives a brief overview of the service offered.
     - This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
 
 3. Online academy section:
 
-- Coming soon section detailing the upcoming online academy.
-- This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
-- Training modules overview in the style of orange cards giving information on the training modules the product will offer.
+    - Coming soon section detailing the upcoming online academy.
+    - This section also includes a responsive iframe with an embedded youtube marketing video to engage the user and deliver information in a fun easy to digest way.
+    - Training modules overview in the style of orange cards giving information on the training modules the product will offer.
 
 
 ### **breeding.html *"Page"*:**
@@ -231,26 +229,26 @@ The main goal of the Tsellios K9 Academy website, is to market the dog training 
 
 1. Contact form:
 
-    - The contact form is clear and promts the user on what information is needed in each field.
+    - The contact form is clear and prompts the user on what information is needed in each field.
     - Orange interactive send message button that the colour changes on hover.
 
 
 ## **Future Iterations**
 
 **Online Academy *"Page"*:**
-- The site will eventually be updated with the ability to sign up and log in to the online academy where users can sample for free and purchase online instructional training videos.
 
-- The online academy will also have the option to book one to one online sessions with a trainer to discuss training needs.
+    - The site will eventually be updated with the ability to sign up and log in to the online academy where users can sample for free and purchase online instructional training videos.
+    - The online academy will also have the option to book one to one online sessions with a trainer to discuss training needs.
 
 **Online Store *"Page"*:**
-- The site will also open an online store once a large enough social media following and community has been built selling merchandise, accessories and dog related products.
+- The site will also open an online store once a large enough social media following and community have been built selling merchandise, accessories and dog-related products.
 
 ---
 ### Surface
 
 ## **Typography**
 
--   In this project I used the Exo font for titles and headings and Poppins for main text, I also set a fallback font of sans-serif for cross browser compatibility.
+-   In this project I used the Exo font for titles and headings and Poppins for the main text, I also set a fallback font of sans-serif for cross-browser compatibility.
 
 ![Exo](assets/images/readme/exo-font.png "Exo")
 ![Poppins](assets/images/readme/poppins-font.png "Poppins")
@@ -311,28 +309,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. First Time Visitor, first impressions:
 
         1. "The heading of the website made it immediately obvious what the business specializes in."
-        2. "From first glance the navigation was very self explanatory guiding me to exactly the information I needed."
-        3. "Instantly from opening the site I seen links to the businesses social meida pages and the design drew my attention to them straight away."
+        2. "From first glance, the navigation was very self-explanatory guiding me to exactly the information I needed."
+        3. "Instantly from opening the site I saw links to the business's social media pages and the design drew my attention to them straight away."
 
     2. Returning Visitor stories:
 
         1. "After leaving the site to view the social media pages I returned to find out more about the training services, the information needed was easily found and this prompted me to contact the business within the contact page to ask for further information."
-        
 
     3. Frequent User stories:
-        1. "As someone who is keen to keep up to date with the businesses services I followed their social media where I can keep checking for updates to their services and more information on the release of the online academy which I am excited about!"
-        2. "It would be nice if there was a newsletter I could sign up to to recieve updates by email."
+        1. "As someone keen to keep up to date with the businesses services I followed their social media where I can keep checking for updates to their services and more information on the release of the online academy which I am excited about!"
+        2. It would be nice if there was a newsletter I could sign up to receive updates by email."
 
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Ipad Air, Ipad Mini,  iPhone SE, Samsung Galaxy s8 & Samsung Galaxy s20 ultra.
--   Friends and family were asked to test the webiste on a range of devices and their experiences were noted. 
-- I also tested the websites performance using the lighthouse feature in the browser dev tools.
+-   The website was viewed on a variety of devices such as desktops, laptops, Ipad Air, Ipad Mini, iPhone SE, Samsung Galaxy s8 & Samsung Galaxy s20 ultra.
+-   Friends and family were asked to test the website on a range of devices and their experiences were noted.
+- I also tested the performance of the website using the lighthouse feature in the browser dev tools. 
 ![Performance Testing](assets/images/readme/lighthouse-testing.png "Performance Testing")
 
-- The best practices section gave me some feedback but after careful consideration I decided to disregard these to keep the aesthetic of the site.
+- The best practices section gave me some feedback but after careful consideration, I decided to disregard these to keep the aesthetic of the site.
 
 ![Best Practices](assets/images/readme/best-practices.png "Best Practices")
 
@@ -350,9 +347,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Select the Settings tab in your GitHub repository. 
 
-2. locate the GitHub Pages section and chose the Master branch (mine was called "main") as the source to enable GitHub Pages.
+2. Locate the GitHub Pages section and chose the master branch (mine was called "main") as the source to enable GitHub Pages.
 
-3. Save the Master Branch as the source, wait till the page refreshes and locate the URL to the deployed website.
+3. Save the master branch as the source, wait till the page refreshes and locate the URL to the deployed website.
 
 4. Test the URL to make sure the website has deployed properly.
 

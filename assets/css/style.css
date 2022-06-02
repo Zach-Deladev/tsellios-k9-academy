@@ -81,7 +81,6 @@ ul {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
 }
 
 .page-title {
@@ -446,8 +445,6 @@ a:hover {
     text-transform: uppercase;
 }
 
-
-
 /* ----------- index.html */
 
 .testimonials {
@@ -654,7 +651,6 @@ a:hover {
 
 .contact {
     background-color: rgba(0, 0, 0, 0);
-
 }
 
 .social-contact {
@@ -685,7 +681,6 @@ input {
 
 .contact-btn:hover {
     background-color: rgb(134, 39, 4);
-
 }
 
 /* ----------Media Queires */
@@ -868,7 +863,6 @@ input {
     .training-head h2 {
         padding: 15px 10px;
     }
-
 }
 
 /* Index.html */
@@ -882,6 +876,7 @@ input {
 }
 
 @media (max-width: 1520px) {
+
     .test-md-off {
         display: none;
     }
@@ -902,10 +897,6 @@ input {
         height: 240px;
     }
 }
-
-
-/*  Training page */
-
 
 
 /* Breeding.html */
