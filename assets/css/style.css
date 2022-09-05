@@ -753,6 +753,21 @@ input {
         -o-border-radius: 20px;
     }
 
+    .socialbtns .fa-whatsapp {
+
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        font-size: 18px;
+        background-color: rgb(14, 198, 23);
+        border: 2px solid rgb(246, 242, 241);
+        padding-top: 9px;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
     .social-hr {
         border: 1px solid orangered;
         width: 50px;
