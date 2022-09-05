@@ -430,6 +430,21 @@ a:hover {
     -o-border-radius: 30px;
 }
 
+.socialbtns .fa-whatsapp {
+
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 32px;
+    background-color: rgb(14, 198, 23);
+    border: 3px solid rgb(246, 242, 241);
+    padding-top: 10px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
 .socialbtns .fa:hover {
     color: #000;
     background-color: #fff;
