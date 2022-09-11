@@ -649,6 +649,12 @@ a:hover {
     transform: scale(1.05);
 }
 
+.breeding-contact .socialbtns {
+
+    width: 100%;
+    margin: auto;
+}
+
 /* ---------- contact.html */
 
 #contact-container {
