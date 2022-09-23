@@ -7,7 +7,7 @@
 <h1 align="center"><img src="assets/images/tsellios-logo.png"></h1>
 
 ## **Project Overview**
-[View the live project here.](https://zach-deladev.github.io/milestone-project-frontend/)
+[View the live project here.](http://www.tselliosk9academy.co.uk/)
 
 This is the main marketing website for Tsellios K9 Academy. It is designed to be responsive and accessible on both mobile and desktop devices, making it easy to both use and navigate for potential customers.
 
